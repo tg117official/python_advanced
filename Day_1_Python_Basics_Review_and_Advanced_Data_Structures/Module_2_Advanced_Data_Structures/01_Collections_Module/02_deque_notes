@@ -1,0 +1,40 @@
+A deque (short for "double-ended queue") in Python is like a list but more flexible. It's part of the `collections` module and allows you to add and remove items from both ends (front and back) very quickly.
+
+Key Features:
+1. Fast operations at both ends:
+   - Adding or removing items at the beginning or end of a deque is faster than with a regular list.
+2. Useful for specific scenarios:
+   - Deques are great when you need to process items in the order they arrive (like a queue) or need to manage a fixed-size collection.
+
+Where to Use:
+- When you need a queue or stack.
+- When you need to add/remove items from both ends frequently.
+- To maintain a fixed-size collection (like a sliding window).
+
+Example:
+
+from collections import deque
+
+# Create a deque
+dq = deque()
+
+# Add items to the end
+dq.append(10)
+dq.append(20)
+
+# Add items to the beginning
+dq.appendleft(5)
+
+print(dq)  # Output: deque([5, 10, 20])
+
+# Remove items from the end
+dq.pop()
+
+# Remove items from the beginning
+dq.popleft()
+
+print(dq)  # Output: deque([10])
+
+
+Why is it helpful?
+Deques are optimized for operations at the start and end, unlike lists which can be slow when inserting or removing items at the beginning.

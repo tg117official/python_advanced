@@ -1,0 +1,133 @@
+### Decorators in Python
+
+What is a Decorator?
+- A decorator is a design pattern in Python that allows you to modify or enhance the behavior of functions or classes without permanently changing them.
+- Decorators wrap another function in such a way that they can extend its behavior without explicitly modifying its structure.
+
+Why Use Decorators?
+- Code Reusability: They allow common functionality (like logging, access control, or caching) to be easily reused across different functions.
+- Separation of Concerns: They help keep the core function code clean by separating auxiliary concerns.
+- Flexibility: They let you modify functions dynamically, making them useful for runtime functionality changes.
+
+### How Do Decorators Work?
+
+Decorators are often created as functions that take another function as an argument, wrap some additional behavior around it, and then return a new function.
+
+The syntax for applying a decorator to a function is by using the `@decorator_name` notation above the target function.
+
+### Basic Example of a Decorator
+
+Let’s create a decorator that prints a message before and after calling the function.
+
+
+def my_decorator(func):
+    def wrapper():
+        print("Before the function runs")
+        func()
+        print("After the function runs")
+    return wrapper
+
+# Applying the decorator
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+
+
+Output:
+
+Before the function runs
+Hello!
+After the function runs
+
+
+Here, `@my_decorator` is syntactic sugar for:
+
+say_hello = my_decorator(say_hello)
+
+
+### Practical Examples of Decorators
+
+#### 1. Logging with Decorators
+
+A logging decorator to log the arguments and result of a function.
+
+
+def log_decorator(func):
+    def wrapper(*args, kwargs):
+        print(f"Calling {func.__name__} with args: {args}, kwargs: {kwargs}")
+        result = func(*args, kwargs)
+        print(f"{func.__name__} returned {result}")
+        return result
+    return wrapper
+
+@log_decorator
+def add(a, b):
+    return a + b
+
+add(3, 5)
+
+
+Output:
+
+Calling add with args: (3, 5), kwargs: {}
+add returned 8
+
+
+#### 2. Authorization with Decorators
+
+A decorator that checks if a user has the correct access level.
+
+
+def requires_access_level(level):
+    def decorator(func):
+        def wrapper(user):
+            if user['access_level'] == level:
+                return func(user)
+            else:
+                print("Access Denied!")
+        return wrapper
+    return decorator
+
+@requires_access_level('admin')
+def get_admin_password(user):
+    return "Admin password: 1234"
+
+user = {'username': 'jane', 'access_level': 'user'}
+print(get_admin_password(user))  # Output: Access Denied!
+
+admin_user = {'username': 'alice', 'access_level': 'admin'}
+print(get_admin_password(admin_user))  # Output: Admin password: 1234
+
+
+#### 3. Timing with Decorators
+
+A decorator that times how long a function takes to run.
+
+
+import time
+
+def timer_decorator(func):
+    def wrapper(*args, kwargs):
+        start_time = time.time()
+        result = func(*args, kwargs)
+        end_time = time.time()
+        print(f"{func.__name__} took {end_time - start_time} seconds")
+        return result
+    return wrapper
+
+@timer_decorator
+def compute_square(numbers):
+    return [x * x for x in numbers]
+
+compute_square(range(1, 100000))
+
+
+### Key Points
+
+1. Decorator Syntax: Use `@decorator_name` above a function to apply the decorator.
+2. Wrapper Function: Decorators typically define an inner `wrapper` function that adds functionality before or after the core function runs.
+3. Passing Arguments: Decorators often use `*args` and `kwargs` to support functions with varying arguments.
+
+Decorators are a powerful feature in Python, helping you enhance function behavior in a clean and reusable way.

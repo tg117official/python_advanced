@@ -1,0 +1,154 @@
+Python Set
+
+# What is a Set in Python?
+- A set is a collection of unique items in Python.
+- It is unordered (no specific order) and unindexed (you can't access items by position).
+- Written with curly braces `{}` or by using the `set()` function.
+
+# Basic Features:
+1. Unique: No duplicates are allowed.
+2. Mutable: You can add or remove items.
+3. Unordered: The order of items is not preserved.
+
+
+
+# How to Create a Set?
+
+# Create a set
+fruits = {"apple", "banana", "cherry"}
+print(fruits)  # Output: {'apple', 'banana', 'cherry'}
+
+# Using set() function
+numbers = set([1, 2, 3, 4, 4])  # Duplicates are removed
+print(numbers)  # Output: {1, 2, 3, 4}
+
+
+
+
+# Purpose of Sets:
+1. Remove Duplicates: Automatically filters out duplicate values.
+2. Fast Membership Testing: Quickly check if an item exists in a collection.
+3. Mathematical Set Operations: Perform operations like union, intersection, difference, etc.
+
+
+
+# Real-Life Use Cases:
+
+1. Removing Duplicates in Data:
+   - Useful in cleaning datasets by eliminating duplicate values.
+
+   data = [1, 2, 3, 3, 4, 5, 5]
+   unique_data = set(data)
+   print(unique_data)  # Output: {1, 2, 3, 4, 5}
+
+
+2. Checking Membership:
+   - Quickly verify if an item exists.
+
+   allowed_users = {"Alice", "Bob", "Charlie"}
+   print("Alice" in allowed_users)  # Output: True
+
+
+3. Mathematical Set Operations:
+   - Combine or compare datasets.
+
+   set_a = {1, 2, 3}
+   set_b = {3, 4, 5}
+   print(set_a | set_b)  # Union: {1, 2, 3, 4, 5}
+   print(set_a & set_b)  # Intersection: {3}
+   print(set_a - set_b)  # Difference: {1, 2}
+
+
+4. Industry Use Cases:
+
+   - Data Engineering:
+     - Filter duplicate entries while ingesting data.
+
+     records = ["record1", "record2", "record1", "record3"]
+     unique_records = set(records)
+     # Output: {'record1', 'record2', 'record3'}
+
+
+   - Access Control:
+     - Manage a list of authorized users or roles.
+
+     authorized_roles = {"admin", "editor", "viewer"}
+     print("admin" in authorized_roles)  # Output: True
+
+
+   - Finding Common Data:
+     - Compare two datasets for shared values.
+
+     dataset1 = {"apple", "banana", "cherry"}
+     dataset2 = {"cherry", "date", "fig"}
+     common_items = dataset1 & dataset2  # Output: {'cherry'}
+
+
+   - Tracking Unique Events:
+     - Use sets to store unique events in logging or analytics.
+
+     logged_events = {"login", "logout", "purchase"}
+     logged_events.add("signup")
+     print(logged_events)  # Output: {'login', 'logout', 'purchase', 'signup'}
+
+
+   - Eliminating Redundant API Calls:
+     - Ensure the same request isn't sent twice.
+
+     api_requests = ["user1", "user2", "user1"]
+     unique_requests = set(api_requests)
+     # Output: {'user1', 'user2'}
+
+
+5. Building Relationships:
+   - Handle relationships in a graph (e.g., mutual friends, followers).
+
+   user1_followers = {"Alice", "Bob", "Charlie"}
+   user2_followers = {"Bob", "Diana", "Eve"}
+   mutual_followers = user1_followers & user2_followers
+   # Output: {'Bob'}
+
+
+
+
+# Common Operations:
+
+1. Add Items:
+
+   my_set = {1, 2, 3}
+   my_set.add(4)
+   print(my_set)  # Output: {1, 2, 3, 4}
+
+
+2. Remove Items:
+
+   my_set.remove(2)
+   print(my_set)  # Output: {1, 3, 4}
+
+
+3. Union:
+
+   set_a = {1, 2}
+   set_b = {3, 4}
+   print(set_a | set_b)  # Output: {1, 2, 3, 4}
+
+
+4. Intersection:
+
+   set_a = {1, 2, 3}
+   set_b = {2, 3, 4}
+   print(set_a & set_b)  # Output: {2, 3}
+
+
+5. Difference:
+
+   print(set_a - set_b)  # Output: {1}
+
+
+
+
+# When to Use Sets:
+- When you need to remove duplicates from data.
+- When you want to compare datasets (e.g., find common or unique items).
+- For fast lookups (checking if an item exists).
+- To perform mathematical operations (union, intersection, etc.).

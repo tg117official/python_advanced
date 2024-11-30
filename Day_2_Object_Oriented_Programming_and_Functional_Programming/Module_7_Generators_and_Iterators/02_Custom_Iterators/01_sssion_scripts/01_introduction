@@ -1,0 +1,113 @@
+### Iterators in Python
+
+What is an Iterator?
+- An iterator is an object in Python that represents a sequence of values and allows you to iterate through it one item at a time.
+- Iterators implement the iterator protocol, which consists of the methods `__iter__()` and `__next__()`.
+
+### How Iterators Work
+
+1. `__iter__()`: Returns the iterator object itself and is called at the start of an iteration.
+2. `__next__()`: Returns the next value in the sequence each time it’s called. When there are no more items to return, it raises a `StopIteration` exception, which signals the end of the iteration.
+
+Why Use Iterators?
+- Iterators allow Python to manage large data structures or infinite sequences without loading them all into memory.
+- They support lazy evaluation, meaning items are generated only when needed, which can make programs more memory-efficient.
+- They provide a standard way to loop through objects, making code cleaner and more intuitive.
+
+### Example of an Iterator
+
+The following code shows how an iterator works by creating a custom iterator class.
+
+
+class MyCounter:
+    def __init__(self, limit):
+        self.limit = limit
+        self.count = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.count < self.limit:
+            current = self.count
+            self.count += 1
+            return current
+        else:
+            raise StopIteration
+
+# Using the iterator
+counter = MyCounter(5)
+for number in counter:
+    print(number)  # Output: 0, 1, 2, 3, 4
+
+
+### Built-in Iterators in Python
+
+Many built-in Python objects are iterable, including:
+- Lists, tuples, strings, dictionaries, and sets
+- File objects (which let you iterate line by line)
+
+
+# Iterating through a list
+numbers = [1, 2, 3]
+it = iter(numbers)
+print(next(it))  # Output: 1
+print(next(it))  # Output: 2
+print(next(it))  # Output: 3
+
+
+### Iterators vs. Iterables
+
+- An iterable is any object that can return an iterator, which includes lists, dictionaries, strings, etc. An iterable has an `__iter__()` method that returns an iterator.
+- An iterator is the actual object that implements the `__next__()` method and knows how to produce values one at a time.
+
+In short:
+- Iterable: An object that can be iterated over (e.g., list, tuple, string).
+- Iterator: An object that produces one item at a time from an iterable.
+
+### Infinite Iterators
+
+Iterators can represent infinite sequences, such as numbers or repetitive tasks, without using extra memory for the entire sequence. This can be especially useful for mathematical or procedural generation tasks.
+
+
+# Infinite iterator
+class InfiniteCounter:
+    def __init__(self):
+        self.count = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        self.count += 1
+        return self.count
+
+infinite_counter = InfiniteCounter()
+for i in infinite_counter:
+    if i > 5:  # Breaking to avoid infinite loop
+        break
+    print(i)  # Output: 1, 2, 3, 4, 5
+
+
+### Using `iter()` and `next()` Built-in Functions
+
+- `iter()`: Converts an iterable to an iterator.
+- `next()`: Retrieves the next item from an iterator.
+
+Example:
+
+# Using `iter()` and `next()` on a list
+my_list = [10, 20, 30]
+iterator = iter(my_list)
+print(next(iterator))  # Output: 10
+print(next(iterator))  # Output: 20
+print(next(iterator))  # Output: 30
+
+
+### Advantages of Iterators
+
+1. Memory Efficiency: They generate items one at a time, which saves memory.
+2. Lazy Evaluation: They compute items only when needed.
+3. Reusability: Iterators provide a unified way to loop through collections.
+
+Iterators are a fundamental part of Python that allow you to create efficient, memory-conscious code and handle sequences and collections in a clean, Pythonic way.

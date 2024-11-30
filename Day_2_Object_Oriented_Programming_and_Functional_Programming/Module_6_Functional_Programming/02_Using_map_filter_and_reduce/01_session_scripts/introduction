@@ -1,0 +1,113 @@
+The Concepts of `map`, `filter`, and `reduce` in Python
+
+Python provides three functional programming tools—`map`, `filter`, and `reduce`—that allow you to apply functions to collections like lists and tuples in a clean, concise way.
+
+Why Do We Need `map`, `filter`, and `reduce`?
+
+These functions allow us to:
+1. Write cleaner and more readable code:
+    They avoid the need for explicit loops, making the code more
+    expressive.
+2. Simplify transformations and aggregations:
+    They help us apply functions to collections or filter and reduce
+    data with fewer lines of code.
+3. Use functional programming:
+    They enable functional programming practices, where functions
+    are passed around and applied to data more flexibly.
+
+Overview of `map`, `filter`, and `reduce`
+
+1. `map(function, iterable)`:
+   - Applies a function to each item in an iterable (e.g., list or tuple).
+   - Returns an iterator with the results.
+
+2. `filter(function, iterable)`:
+   - Filters the items in an iterable based on whether the function returns `True` or `False`.
+   - Returns an iterator with items for which the function evaluates to `True`.
+
+3. `reduce(function, iterable)`:
+   - Applies a rolling computation (such as summing) to sequential pairs in an iterable.
+   - It is part of the `functools` module and returns a single value.
+
+Basic Examples
+
+#Example 1: Using `map` to Transform Data
+
+Suppose we have a list of numbers, and we want to square each number.
+
+
+# Function to square a number
+def square(x):
+    return x * x
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(square, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+
+Or with a lambda function:
+
+squared_numbers = list(map(lambda x: x * x, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+
+#Example 2: Using `filter` to Filter Data
+
+Now, let’s filter out only the even numbers from the list.
+
+
+# Function to check if a number is even
+def is_even(x):
+    return x % 2 == 0
+
+even_numbers = list(filter(is_even, numbers))
+print(even_numbers)  # Output: [2, 4]
+
+
+Or with a lambda function:
+
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4]
+
+
+#Example 3: Using `reduce` to Aggregate Data
+
+Let’s use `reduce` to calculate the product of all numbers in the list. For this, we need to import `reduce` from `functools`.
+
+
+from functools import reduce
+
+# Function to multiply two numbers
+def multiply(x, y):
+    return x * y
+
+product = reduce(multiply, numbers)
+print(product)  # Output: 120 (1 * 2 * 3 * 4 * 5)
+
+
+Or with a lambda function:
+
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # Output: 120
+
+
+Combined Example: `map`, `filter`, and `reduce`
+
+Let’s say we have a list of numbers, and we want to:
+1. Square each number (`map`),
+2. Filter out numbers greater than 10 (`filter`), and
+3. Calculate the sum of the remaining numbers (`reduce`).
+
+
+numbers = [1, 2, 3, 4, 5]
+
+# Step 1: Square each number
+squared = map(lambda x: x * x, numbers)
+
+# Step 2: Filter out numbers greater than 10
+filtered = filter(lambda x: x <= 10, squared)
+
+# Step 3: Sum the remaining numbers
+sum_of_filtered = reduce(lambda x, y: x + y, filtered)
+
+print(sum_of_filtered)  # Output: 5 (since only 1 and 4 remain after filtering)

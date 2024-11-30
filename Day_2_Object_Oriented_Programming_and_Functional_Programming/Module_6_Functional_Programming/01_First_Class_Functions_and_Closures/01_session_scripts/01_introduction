@@ -1,0 +1,82 @@
+First-Class Functions in Python
+
+What are they?
+
+First-class functions mean that functions in Python are treated as first-class
+citizens. This means they can be:
+    Assigned to variables,
+    Passed as arguments to other functions, and
+    Returned as values from other functions.
+
+
+Why are they used?
+
+First-class functions allow for greater flexibility and modularity in coding.
+They enable higher-order functions, which make code more abstract and reusable
+by allowing functions to accept other functions as arguments or return them as
+outputs.
+
+Basic Example:
+
+# Assigning a function to a variable
+def greet(name):
+    return f"Hello, {name}!"
+
+say_hello = greet
+print(say_hello("Alice"))  # Output: Hello, Alice!
+
+
+Closures in Python
+
+What are they?
+
+A closure is an inner function that remembers the variables from its enclosing
+scope, even if that scope is gone.
+This means the inner function can "close over" variables from the outer function.
+
+Why are they used?
+
+Closures provide a way to retain data between calls and are useful when you want
+to retain some state in a function without using global variables or class
+instances.
+They are commonly used to create functions with "memory" of past states or
+configuration.
+
+Basic Example:
+
+# Closure example
+def outer_function(message):
+    def inner_function():
+        return f"Message is: {message}"
+    return inner_function
+
+closure_func = outer_function("Hello from closure!")
+print(closure_func())  # Output: Message is: Hello from closure!
+In this example, inner_function is a closure that retains the value of message from the outer_function, even though outer_function has completed execution.
+
+
+Why Use These Concepts Together?
+
+Combining first-class functions and closures makes it easy to write flexible,
+efficient, and modular code.
+They are frequently used in decorators, event handling,
+and scenarios requiring delayed execution or configuration of behavior.
+
+Combined Example with First-Class Functions and Closures:
+
+def make_multiplier(factor):
+    def multiplier(number):
+        return number * factor
+    return multiplier
+
+times_two = make_multiplier(2)
+times_three = make_multiplier(3)
+
+print(times_two(5))   # Output: 10
+print(times_three(5)) # Output: 15
+In this example:
+
+make_multiplier creates a closure around factor.
+times_two and times_three are functions that remember the value of factor provided
+during their creation, enabling different multiplication behaviors based on
+factor.

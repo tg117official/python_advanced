@@ -1,0 +1,79 @@
+### Lambda Expressions and Anonymous Functions in Python
+
+What are they?
+- Lambda expressions are small, anonymous functions defined with the
+ `lambda` keyword. They can take any number of arguments but have
+  only a single expression.
+- Anonymous functions are functions without a name, often used
+  where a function is required temporarily or for a short task.
+
+
+Syntax of Lambda Expressions:
+
+lambda arguments: expression
+
+
+### Why Do We Need Lambda Expressions?
+
+- Conciseness:
+        They allow us to write short, one-off functions without
+        formally defining them.
+- Readability:
+        They keep the code compact, especially when the function
+        is simple and used only once.
+- Higher-Order Functions:
+        Lambdas are commonly used with higher-order functions like
+        `map`, `filter`, and `sorted` to quickly define short
+        functions.
+
+### Examples of Lambda Expressions
+
+Basic Example
+
+A lambda function to add two numbers:
+
+add = lambda x, y: x + y
+print(add(3, 5))  # Output: 8
+
+
+Here, `add` is an anonymous function that takes two arguments, `x` and `y`, and returns their sum.
+
+Using Lambda with `map`
+
+Applying a lambda to square each number in a list:
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x * x, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+
+Using Lambda with `filter`
+
+Filtering out even numbers from a list:
+
+numbers = [1, 2, 3, 4, 5]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4]
+
+
+Using Lambda with `sorted`
+
+Sorting a list of tuples by the second element:
+
+points = [(1, 2), (3, 1), (5, -1)]
+sorted_points = sorted(points, key=lambda point: point[1])
+print(sorted_points)  # Output: [(5, -1), (3, 1), (1, 2)]
+
+
+### Limitations of Lambda Expressions
+
+1. Single Expression Only:
+        Lambdas can only contain a single expression, limiting them to simple operations.
+2. Readability:
+        Complex lambdas can become hard to read, especially when nested.
+3. No Statements:
+        Lambdas cannot contain statements like `if`, `for`, `while`, or `print`.
+
+### Summary
+
+Lambda expressions and anonymous functions in Python provide a quick, concise way to define simple, throwaway functions, especially when used with higher-order functions like `map`, `filter`, and `sorted`. They make functional-style programming easier and more expressive in Python.
