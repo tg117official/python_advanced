@@ -5,38 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_advanced.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/01_namedtuple_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/01_namedtuple_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/02_deque_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/02_deque_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/03_counter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/03_counter_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/04_defaultdict" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/04_defaultdict_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/05_orderedDict" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/05_orderedDict_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/01_numpy_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/02_numpy_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/01_dictionary_comprehension_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/01_dictionary_comprehension_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/02_nested_dictionaries_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/02_nested_dictionaries_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/03_set_operations_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/03_set_operations_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_session_scripts/01_introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/01_session_scripts/introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/01_session_Scripts/introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/01_session_scripts/01_introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Introduction_to_Generators/01_session_scripts/01_introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/01_sssion_scripts/01_introduction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course_content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/03_numpy_intermediate_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/04_numpy_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_first_class_functions_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/02_first_class_functions_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/03_closure_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/03_closure_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/01_map_filter_reduce_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/01_map_filter_reduce_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/lambda_functions_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/lambda_functions_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/decorator_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/decorator_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/01_numpy_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/01_numpy_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/02_numpy_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/02_numpy_basic_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_session_scripts/01_introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/01_session_scripts/introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/01_session_Scripts/introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/01_session_scripts/01_introduction" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.02_deque_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sandeep/PycharmProjects/ecom_medallion_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.02_deque_exercises.executor": "Run",
+    "Python.04_numpy_advanced.executor": "Run",
+    "Python.playground (1).executor": "Run",
+    "Python.playground (2).executor": "Run",
+    "Python.playground.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/ecom_medallion_project"
   }
-}</component>
-  <component name="RunManager" selected="Python.playground">
+}]]></component>
+  <component name="RunManager" selected="Python.playground (2)">
     <configuration name="02_deque_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced" />
       <option name="ENV_FILES" value="" />
@@ -86,6 +78,72 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/02_deque_exercises.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_numpy_advanced" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/04_numpy_advanced.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playground (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playground (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,6 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.playground (2)" />
+        <item itemvalue="Python.04_numpy_advanced" />
+        <item itemvalue="Python.playground (1)" />
         <item itemvalue="Python.playground" />
         <item itemvalue="Python.02_deque_exercises" />
       </list>

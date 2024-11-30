@@ -1,0 +1,160 @@
+Lambda Expressions and Anonymous Functions in Python
+
+#What is a Lambda Expression?
+- A lambda expression in Python is a way to create a short, one-line function without giving it a name.
+- These functions are called anonymous functions because they don’t have a name like regular functions.
+
+#Syntax of Lambda Expression:
+
+lambda arguments: expression
+
+
+- `arguments`: Inputs to the function.
+- `expression`: The result or operation that will be returned.
+
+
+
+Basic Example
+
+# Regular function
+def square(x):
+    return x * x
+
+# Lambda equivalent
+square_lambda = lambda x: x * x
+
+print(square(4))        # Output: 16
+print(square_lambda(4)) # Output: 16
+
+
+Here, `lambda x: x * x` is a function that takes an argument `x` and returns `x * x`.
+
+
+
+Key Features
+1. Concise: Lambdas are used for small, single-line functions.
+2. Inline Definition: You can define and use them directly where needed.
+3. No Name: Since they are anonymous, you typically use them once or for short tasks.
+
+
+
+Why Use Lambda Expressions?
+- To write quick, small functions without formally defining them.
+- They make code shorter and cleaner, especially when combined with functions like `map`, `filter`, or `reduce`.
+
+
+
+When Should You Avoid Them?
+- When the function is complex or spans multiple lines.
+- Instead, use a named function for clarity.
+
+
+
+Industry-Level Use Cases
+
+#1. Data Transformation (with `map`)
+
+numbers = [1, 2, 3, 4]
+squared = map(lambda x: x * x, numbers)
+print(list(squared))  # Output: [1, 4, 9, 16]
+
+- Purpose: Apply transformations (e.g., squaring, scaling) to all items in a dataset.
+
+
+
+#2. Filtering Data (with `filter`)
+
+numbers = [10, 15, 20, 25, 30]
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+print(list(even_numbers))  # Output: [10, 20, 30]
+
+- Purpose: Select specific items from a dataset based on a condition (e.g., even numbers).
+
+
+
+#3. Dynamic Sorting
+
+data = [("Alice", 25), ("Bob", 20), ("Charlie", 30)]
+sorted_data = sorted(data, key=lambda x: x[1])
+print(sorted_data)
+# Output: [('Bob', 20), ('Alice', 25), ('Charlie', 30)]
+
+- Purpose: Sort items dynamically based on a specific attribute (e.g., sorting by age).
+
+
+
+#4. Customizing Calculations
+
+add = lambda x, y: x + y
+multiply = lambda x, y: x * y
+
+print(add(5, 3))        # Output: 8
+print(multiply(5, 3))   # Output: 15
+
+- Purpose: Quickly define operations for calculators, data processing pipelines, or algorithms.
+
+
+
+#5. Using with `reduce`
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4]
+sum_result = reduce(lambda x, y: x + y, numbers)
+print(sum_result)  # Output: 10
+
+- Purpose: Combine multiple values into one, such as summing or finding the product of a list.
+
+
+
+#6. Web Development (Event Handling)
+
+buttons = ["Save", "Cancel", "Submit"]
+button_callbacks = {btn: lambda: print(f"{btn} clicked") for btn in buttons}
+button_callbacks["Save"]()  # Output: Save clicked
+
+- Purpose: Dynamically attach short event-handling functions to UI elements.
+
+
+
+Advantages
+1. Short and Simple: Perfect for small tasks like transformations or filtering.
+2. Improves Readability: Reduces boilerplate code for single-use functions.
+3. Dynamic Use: Can be defined on-the-fly for temporary operations.
+
+
+
+Disadvantages
+1. Limited to One Expression: Lambdas can’t have multiple statements or complex logic.
+2. Hard to Debug: Since they are unnamed, it’s harder to identify issues in large codebases.
+3. Less Readable for Complex Tasks: Long lambda expressions can become confusing.
+
+
+
+Real-Life Example
+
+#Task: Filter, Transform, and Aggregate Sales Data
+
+from functools import reduce
+
+# List of sales data (region, sales)
+sales_data = [("North", 100), ("South", 200), ("East", 150), ("West", 250)]
+
+# Step 1: Filter regions with sales > 150
+filtered_sales = filter(lambda x: x[1] > 150, sales_data)
+
+# Step 2: Extract sales values and scale them by 1.1 (e.g., tax or growth factor)
+scaled_sales = map(lambda x: x[1] * 1.1, filtered_sales)
+
+# Step 3: Calculate total sales
+total_sales = reduce(lambda x, y: x + y, scaled_sales)
+
+print(total_sales)  # Output: 495.0
+
+
+
+Key Takeaways
+- Lambdas are anonymous functions perfect for quick, simple operations.
+- They are widely used in data processing pipelines, sorting, and event handling.
+- Avoid lambdas for complex logic—use regular functions instead.
+

@@ -1,0 +1,185 @@
+Map, Filter, and Reduce in Python
+
+These are three very powerful functional programming tools in Python. They help you process and transform data in a clean and efficient way.
+
+1. Map
+
+#What is `map`?
+- The `map` function applies a given function to each item in an iterable (e.g., list, tuple).
+- It returns a new iterable (a `map` object) with the transformed data.
+
+#Syntax:
+
+map(function, iterable)
+
+
+#Example:
+
+numbers = [1, 2, 3, 4]
+squared = map(lambda x: x  2, numbers)
+print(list(squared))  # Output: [1, 4, 9, 16]
+
+
+
+
+#Purpose of `map`:
+- Apply a transformation (e.g., square, capitalize, etc.) to every item in a collection.
+
+
+
+#Industry Use Cases:
+1. Data Cleaning:
+   - Capitalize all strings in a list of names:
+
+     names = ["alice", "bob", "charlie"]
+     capitalized_names = map(str.capitalize, names)
+     print(list(capitalized_names))  # Output: ['Alice', 'Bob', 'Charlie']
+
+
+2. Data Transformation:
+   - Convert a list of strings to integers:
+
+     string_numbers = ["1", "2", "3"]
+     int_numbers = map(int, string_numbers)
+     print(list(int_numbers))  # Output: [1, 2, 3]
+
+
+
+
+2. Filter
+
+#What is `filter`?
+- The `filter` function filters items from an iterable based on a condition defined by a function.
+- It returns only the items that meet the condition.
+
+#Syntax:
+
+filter(function, iterable)
+
+
+#Example:
+
+numbers = [1, 2, 3, 4, 5]
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+print(list(even_numbers))  # Output: [2, 4]
+
+
+
+
+#Purpose of `filter`:
+- Extract items from a collection that meet specific criteria.
+
+
+
+#Industry Use Cases:
+1. Filtering Records:
+   - Get only active users from a list of user statuses:
+
+     statuses = ["active", "inactive", "active"]
+     active_users = filter(lambda x: x == "active", statuses)
+     print(list(active_users))  # Output: ['active', 'active']
+
+
+2. Data Validation:
+   - Filter out invalid data points from a dataset:
+
+     data = [10, -5, 0, 25]
+     valid_data = filter(lambda x: x > 0, data)
+     print(list(valid_data))  # Output: [10, 25]
+
+
+
+
+3. Reduce
+
+#What is `reduce`?
+- The `reduce` function reduces a collection to a single value by applying a function cumulatively.
+- It is part of the `functools` module.
+
+#Syntax:
+
+from functools import reduce
+reduce(function, iterable)
+
+
+#Example:
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4]
+sum_result = reduce(lambda x, y: x + y, numbers)
+print(sum_result)  # Output: 10
+
+
+
+
+#Purpose of `reduce`:
+- Combine items in a collection into a single result (e.g., sum, product, concatenation).
+
+
+
+#Industry Use Cases:
+1. Aggregating Data:
+   - Calculate the total revenue from a list of sales:
+
+     sales = [100, 200, 150]
+     total_revenue = reduce(lambda x, y: x + y, sales)
+     print(total_revenue)  # Output: 450
+
+
+2. Finding Maximum or Minimum:
+   - Find the maximum value in a list:
+
+     numbers = [3, 5, 2, 8]
+     max_value = reduce(lambda x, y: x if x > y else y, numbers)
+     print(max_value)  # Output: 8
+
+
+
+
+Key Differences
+
+| Function | What It Does                          | Input                          | Output                     |
+
+| `map`    | Transforms each item                 | Function + Iterable            | New Iterable              |
+| `filter` | Extracts items that meet a condition | Function (Boolean) + Iterable  | New Iterable              |
+| `reduce` | Combines items into one result       | Function + Iterable            | Single Value              |
+
+
+
+When to Use These?
+- Use `map` when you want to transform all items.
+- Use `filter` when you want to select specific items.
+- Use `reduce` when you want to combine items into a single result.
+
+
+
+Real-Life Example
+
+#Task: Process and Summarize Sales Data
+
+from functools import reduce
+
+# Data: Sales of various regions
+sales = [("North", 200), ("South", 150), ("East", 300), ("West", 100)]
+
+# Step 1: Use `map` to extract sales numbers
+sales_numbers = map(lambda x: x[1], sales)
+
+# Step 2: Use `filter` to select regions with sales > 150
+filtered_sales = filter(lambda x: x > 150, sales_numbers)
+
+# Step 3: Use `reduce` to calculate total sales
+total_sales = reduce(lambda x, y: x + y, filtered_sales)
+
+print(total_sales)  # Output: 500
+
+
+
+
+Summary
+- `map`: Apply a function to every item (e.g., squaring numbers).
+- `filter`: Pick items that meet a condition (e.g., even numbers).
+- `reduce`: Combine all items into one (e.g., sum or product).
+
+These functions make Python code cleaner, faster, and more readable, especially in data processing pipelines or scenarios like ETL (Extract, Transform, Load) processes. Let me know if you'd like more examples or exercises! 😊

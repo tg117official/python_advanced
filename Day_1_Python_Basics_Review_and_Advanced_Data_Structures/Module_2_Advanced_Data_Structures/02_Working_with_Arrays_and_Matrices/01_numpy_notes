@@ -1,32 +1,32 @@
 Python NumPy
 
-#What is NumPy?
+# What is NumPy?
 - NumPy (Numerical Python) is a powerful Python library used to work with numbers and data in arrays.
 - It provides tools to perform fast mathematical operations on large datasets.
 - It's like a supercharged Excel for Python, but much faster and more efficient.
 
 
 
-#Why is NumPy Special?
+# Why is NumPy Special?
 1. Fast Calculations: NumPy arrays are faster than Python lists for large amounts of data.
 2. Memory Efficient: Uses less memory compared to traditional Python lists.
 3. Supports Multi-Dimensional Arrays: You can work with 1D, 2D (like matrices), and even higher dimensions.
 
 
 
-#Purpose of NumPy
+# Purpose of NumPy
 - Simplify data manipulation and mathematical operations.
 - Provide tools for scientific computing, machine learning, and data analysis.
 
 
 
-#How Does It Work?
+# How Does It Work?
 - Array: A collection of numbers stored in a grid.
 - Operations: Perform calculations (like sum, average, multiplication) on all numbers in an array at once.
 
 
 
-#Basic Example:
+# Basic Example:
 
 import numpy as np
 
@@ -162,5 +162,40 @@ When to Use NumPy?
 - When working on scientific or machine learning projects.
 
 
+What we'll learn
 
-Let me know if you'd like practical exercises or further explanations! 😊
+Basic :
+ array creation,
+ reshaping,
+ arithmetic operations,
+ statistical functions,
+ random number generation,
+ stacking,
+ matrix multiplication,
+ linspace,
+ conditional operations
+
+Intermediate :
+ Array generation using fromfunction.
+ Conditional transformations using np.where.
+ Normalization techniques.
+ Axis-based operations (row-wise, column-wise maximums).
+ Splitting arrays and computing statistics.
+ Diagonal extraction and operations.
+ 3D array manipulation with conditions.
+ Cumulative sum calculations along rows and columns.
+ Identifying indices of top elements.
+ Matrix updates based on divisibility conditions.
+
+
+Advanced :
+ Sorting based on row sums (complex indexing).
+ 3D normalization (min-max scaling).
+ Finding the most frequent element in an array.
+ Dynamic updates based on positional logic.
+ Simulating and analyzing probabilities in random experiments.
+ Matrix border manipulation.
+ Creating frequency dictionaries from arrays.
+ Finding top values and their positions in matrices.
+ Working with high-dimensional (4D) arrays and reshaping.
+ Combining element-wise operations with advanced functions like max.
