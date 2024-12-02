@@ -1,0 +1,226 @@
+Exception Handling in Python
+
+#What is Exception Handling?
+- Exception handling is a way to deal with unexpected events (errors) in your code without crashing your program.
+- It helps you catch errors and decide what to do next instead of letting the program stop abruptly.
+
+
+
+Why Use Exception Handling?
+
+1. Prevent Crashes:
+   - Your program won’t stop unexpectedly.
+2. Handle Errors Gracefully:
+   - Provide meaningful messages or fallback behavior.
+3. Improve User Experience:
+   - Users get proper error messages instead of seeing program crashes.
+
+
+
+Common Exceptions in Python
+- `ZeroDivisionError`: Division by zero.
+- `ValueError`: Invalid value (e.g., converting a string to an integer).
+- `FileNotFoundError`: File doesn’t exist.
+- `KeyError`: Accessing a non-existent dictionary key.
+- `TypeError`: Performing an operation on incompatible data types.
+
+
+
+How to Handle Exceptions
+
+Use try-except blocks to catch and handle errors.
+
+#Basic Syntax:
+
+try:
+    # Code that might raise an exception
+except ExceptionType:
+    # Code to handle the exception
+
+
+
+
+Examples of Exception Handling
+
+#1. Handling Division by Zero
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+
+
+
+
+#2. Handling Multiple Exceptions
+
+try:
+    number = int("abc")  # This will raise a ValueError
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Invalid input!")
+
+
+
+
+#3. Using `else` and `finally`
+- `else`: Runs if no exception occurs.
+- `finally`: Runs no matter what (useful for cleanup).
+
+
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+else:
+    print(f"Result: {result}")
+finally:
+    print("Execution complete!")
+
+
+
+
+#4. Custom Error Messages
+You can print or log specific error details.
+
+
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Error occurred: {e}")
+
+
+
+
+#5. Raising Exceptions
+- Use `raise` to throw an exception manually.
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Denominator cannot be zero!")
+    return a / b
+
+try:
+    print(divide(10, 0))
+except ValueError as e:
+    print(e)
+
+
+
+
+Industry-Level Use Cases
+
+#1. File Operations
+Handle missing or unreadable files gracefully.
+
+try:
+    with open("data.txt", "r") as file:
+        content = file.read()
+except FileNotFoundError:
+    print("File not found. Please check the file path.")
+
+
+
+
+#2. API Requests
+Handle network errors or invalid API responses.
+
+import requests
+
+try:
+    response = requests.get("https://api.example.com/data")
+    response.raise_for_status()  # Raises HTTPError for bad responses
+    print(response.json())
+except requests.exceptions.RequestException as e:
+    print(f"API request failed: {e}")
+
+
+
+
+#3. User Input Validation
+Prompt users to enter valid input.
+
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("Please enter a valid number.")
+
+
+
+
+#4. Database Operations
+Handle database connection failures.
+
+try:
+    import sqlite3
+    conn = sqlite3.connect("database.db")
+except sqlite3.Error as e:
+    print(f"Database error: {e}")
+
+
+
+
+#5. Data Processing
+Skip problematic rows in large datasets.
+
+data = ["10", "abc", "20"]
+
+for item in data:
+    try:
+        print(int(item))
+    except ValueError:
+        print(f"Invalid data: {item}")
+
+
+
+
+Best Practices for Exception Handling
+
+1. Be Specific:
+   - Catch specific exceptions, not generic ones.
+
+   except ValueError:
+
+
+2. Don’t Suppress Errors:
+   - Avoid using a bare `except` without handling the issue.
+
+   except:  # Not recommended
+
+
+3. Log Errors:
+   - Log exceptions for debugging or monitoring in production.
+
+   import logging
+   logging.error("An error occurred", exc_info=True)
+
+
+4. Use `finally` for Cleanup:
+   - Close files, release resources, or clean up in the `finally` block.
+
+5. Avoid Overusing Exceptions:
+   - Exceptions should handle unexpected situations, not replace normal logic.
+
+
+
+When to Use Exception Handling
+
+1. File Handling:
+   - Reading, writing, or deleting files.
+2. User Input:
+   - Validating input for forms or CLI programs.
+3. APIs and Network Requests:
+   - Handling timeouts, bad responses, or connectivity issues.
+4. Data Processing:
+   - Skipping invalid rows in large datasets.
+5. Database Operations:
+   - Managing failed connections or transactions.
+
+
+
+Summary
+- Exception handling ensures your program runs smoothly even when errors occur.
+- Use `try-except` blocks to catch errors and handle them gracefully.
+- Combine specific exception handling with best practices like logging and cleanup.
+- Common use cases include file handling, user input validation, and API requests.

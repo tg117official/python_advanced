@@ -1,0 +1,253 @@
+File Handling in Python
+
+File handling in Python allows you to create, read, write, and delete files. Python supports handling two main types of files:
+
+1. Text Files: Stores data in plain text format (e.g., `.txt` files).
+2. Binary Files: Stores data in binary format (e.g., images, videos, or executable files).
+
+
+
+Why Use File Handling?
+- Store Data: Save program output to a file for future use.
+- Read Data: Load configurations, datasets, or other inputs.
+- Process Files: Automate tasks like modifying files or analyzing logs.
+
+
+
+Basic File Operations
+
+#1. Opening a File
+Use the `open()` function to work with files.
+
+file = open("filename", mode)
+
+
+Modes:
+- `'r'` → Read (default mode).
+- `'w'` → Write (overwrites if the file exists).
+- `'a'` → Append (adds to the end of the file without overwriting).
+- `'b'` → Binary mode (used with `'r'`, `'w'`, or `'a'`).
+
+
+
+#2. Reading a File (Text File)
+- Read entire content:
+
+  with open("example.txt", "r") as file:
+      content = file.read()
+      print(content)
+
+
+- Read line by line:
+
+  with open("example.txt", "r") as file:
+      for line in file:
+          print(line.strip())  # Removes extra whitespace
+
+
+- Read specific number of characters:
+
+  with open("example.txt", "r") as file:
+      print(file.read(10))  # Reads first 10 characters
+
+
+
+
+#3. Writing to a File (Text File)
+- Overwrite the file:
+
+  with open("example.txt", "w") as file:
+      file.write("Hello, World!")
+
+
+- Append to the file:
+
+  with open("example.txt", "a") as file:
+      file.write("\nAppended text.")
+
+
+
+
+#4. Working with Binary Files
+
+- Read binary data:
+
+  with open("image.jpg", "rb") as file:
+      binary_data = file.read()
+      print(binary_data)
+
+
+- Write binary data:
+
+  with open("output.jpg", "wb") as file:
+      file.write(binary_data)
+
+
+
+
+Examples for Text Files
+
+#1. Read a File and Count Words
+
+with open("example.txt", "r") as file:
+    content = file.read()
+    words = content.split()
+    print(f"Word count: {len(words)}")
+
+
+
+
+#2. Write a List to a File
+
+data = ["Line 1", "Line 2", "Line 3"]
+
+with open("example.txt", "w") as file:
+    for line in data:
+        file.write(line + "\n")
+
+
+
+
+#3. Read File into a List
+
+with open("example.txt", "r") as file:
+    lines = file.readlines()  # Reads lines into a list
+    print(lines)
+
+
+
+
+Examples for Binary Files
+
+#1. Copy an Image
+
+with open("source.jpg", "rb") as source:
+    binary_data = source.read()
+
+with open("copy.jpg", "wb") as destination:
+    destination.write(binary_data)
+
+
+
+
+#2. Read and Write Non-Text Data
+
+# Read a binary file
+with open("data.bin", "rb") as file:
+    binary_data = file.read()
+
+# Write to a new binary file
+with open("output.bin", "wb") as file:
+    file.write(binary_data)
+
+
+
+
+Important Methods for File Handling
+
+1. Reading Methods:
+   - `file.read(size)`: Reads a specific number of characters.
+   - `file.readline()`: Reads the next line.
+   - `file.readlines()`: Reads all lines into a list.
+
+2. Writing Methods:
+   - `file.write(string)`: Writes a string to the file.
+   - `file.writelines(list)`: Writes a list of strings to the file.
+
+3. Pointer Control:
+   - `file.seek(offset)`: Moves the file pointer to a specific position.
+   - `file.tell()`: Returns the current position of the file pointer.
+
+
+
+Best Practices for File Handling
+
+1. Use `with` Statement:
+   - Automatically closes the file after use.
+
+   with open("example.txt", "r") as file:
+       content = file.read()
+
+
+2. Handle Exceptions:
+   - Ensure the program doesn’t crash if the file doesn’t exist.
+
+   try:
+       with open("example.txt", "r") as file:
+           content = file.read()
+   except FileNotFoundError:
+       print("File not found!")
+
+
+3. Use Binary Mode for Non-Text Files:
+   - Always use `'rb'` or `'wb'` for images, videos, or binary files.
+
+4. Close the File:
+   - If not using `with`, explicitly close the file.
+
+   file = open("example.txt", "r")
+   file.close()
+
+
+
+
+Industry-Level Use Cases
+
+#1. Log Processing
+- Read and analyze logs for debugging or monitoring.
+
+with open("server.log", "r") as file:
+    for line in file:
+        if "ERROR" in line:
+            print(line)
+
+
+
+
+#2. Configuration Files
+- Read or write application settings stored in text files.
+
+with open("config.txt", "r") as file:
+    settings = file.read()
+    print(settings)
+
+
+
+
+#3. Data Storage
+- Save and load structured data.
+
+data = "user1, user2, user3"
+with open("users.txt", "w") as file:
+    file.write(data)
+
+
+
+
+#4. Image Processing
+- Read, copy, or manipulate image files in binary format.
+
+with open("image.jpg", "rb") as file:
+    binary_data = file.read()
+
+# Perform some processing and write back
+with open("processed.jpg", "wb") as file:
+    file.write(binary_data)
+
+
+
+
+#5. Backup Systems
+- Automate copying of files for backups.
+
+with open("original.txt", "r") as original, open("backup.txt", "w") as backup:
+    backup.write(original.read())
+
+
+
+
+Summary
+- Text Files: Used for plain text storage (e.g., logs, configurations).
+- Binary Files: Used for images, videos, and non-text data.
+- Always use the `with` statement for safe file handling.
+- Handle exceptions like `FileNotFoundError` to prevent crashes.
