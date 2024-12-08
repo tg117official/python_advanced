@@ -4,31 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="added pytest">
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/01_Data_Types_and_Variables/00_data_types_and_variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/02_Control_Flow_and_Functions/00_control_flow_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/00_modules_and_packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/01_main_direct_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/02_main_importing_with_alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/03_main_importing_specific_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/04_main_importing_all_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/05_main_dynamic_import_using_importlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/arithmetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/geometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/advanced.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/descriptive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/utilities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/utilities/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/01_File_Handling/00_file_handling_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/00_exception_handling_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/pytest_exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_11_Python_Best_Practices_and_Performance_Optimization/01_Code_Style_and_PEP_8/00_coding_style_andpep_8_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_11_Python_Best_Practices_and_Performance_Optimization/02_Writing_Efficient_Python_Code/00_efficient_coding_practices" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_11_Python_Best_Practices_and_Performance_Optimization/03_Documentation_and_Code_Comments/00_documentation_and_comments" afterDir="false" />
+    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="added basic documentation">
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/02_Control_Flow_and_Functions/01_control_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/02_Control_Flow_and_Functions/02_functions_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/02_Control_Flow_and_Functions/03_functions_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/statistics_operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/external_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/r1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/01_File_Handling/01_file_handling_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/01_exception_handing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_content" beforeDir="false" afterPath="$PROJECT_DIR$/course_content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/02_main_script_for_modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/modules/greetings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/modules/list_operations_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/modules/math_operations_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/modules/string_ops/string_operations_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/01_main_direct_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/01_main_direct_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/02_main_importing_with_alias.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/02_main_importing_with_alias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/03_main_importing_specific_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/03_main_importing_specific_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/04_main_importing_all_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/04_main_importing_all_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/05_main_dynamic_import_using_importlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/05_main_dynamic_import_using_importlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/math_operations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/math_operations/arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/math_operations/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/math_operations/geometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/01_Data_Types_and_Variables/01_data_types_and_variables_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/statistics_operations/advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/statistics_operations/descriptive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/statistics_operations/descriptive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/utilities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/01_Data_Types_and_Variables/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project/utilities/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/basic_project_modules/utilities/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/01_namedtuple_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/01_namedtuple_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/03_counter" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/03_counter_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/04_defaultdict" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/04_defaultdict_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/05_orderedDict" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/05_orderedDict_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/01_numpy_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/01_numpy_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/01_dictionary_comprehension_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/01_dictionary_comprehension_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +73,8 @@
   "keyToString": {
     "Python.02_deque_exercises.executor": "Run",
     "Python.04_numpy_advanced.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
     "Python.main_direct_import.executor": "Run",
     "Python.playground (1).executor": "Run",
     "Python.playground (2).executor": "Run",
@@ -70,12 +86,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_1_Quick_Review_of_Python_Basics\03_Modules_and_Packages\project_root" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_1_Quick_Review_of_Python_Basics\03_Modules_and_Packages\project_root\project_package" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_1_Quick_Review_of_Python_Basics\03_Modules_and_Packages" />
       <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_1_Quick_Review_of_Python_Basics\03_Modules_and_Packages\project" />
       <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_9_Asynchronous_Programming\01_Introduction_to_AsyncIO" />
-      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_9_Asynchronous_Programming\02_Asyncio_and_Awaitable_Objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_main_direct_import">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="01_main_direct_import" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_numpy_advanced" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/inventory_project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/04_numpy_advanced.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/inventory_project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playground (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/project_package" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/02_Working_with_Arrays_and_Matrices/playground.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/03_Modules_and_Packages/project_root/project_package/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/01_Data_Types_and_Variables" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/01_Collections_Module/playground.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_1_Quick_Review_of_Python_Basics/01_Data_Types_and_Variables/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.playground" />
         <item itemvalue="Python.01_main_direct_import" />
         <item itemvalue="Python.playground (2)" />
-        <item itemvalue="Python.04_numpy_advanced" />
-        <item itemvalue="Python.playground (1)" />
-        <item itemvalue="Python.playground" />
       </list>
     </recent_temporary>
   </component>
@@ -228,12 +246,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733064948870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added basic documentation">
+      <option name="closed" value="true" />
+      <created>1733112252731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733112252731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added decorators" />
     <MESSAGE value="added pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pytest" />
+    <MESSAGE value="added basic documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic documentation" />
   </component>
 </project>

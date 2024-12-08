@@ -7,7 +7,7 @@
 # Code:
 
 # Dictionary comprehension
-squares = {x: x2 for x in range(1, 6)}
+squares = {x: x**2 for x in range(1, 6)}
 
 # Display the result
 print(squares)

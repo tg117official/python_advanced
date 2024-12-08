@@ -1,6 +1,12 @@
-An `OrderedDict` in Python is a class from the `collections` module that behaves like a regular dictionary but remembers the order in which items are added.
+An `OrderedDict` in Python is a class from the `collections` module that behaves like a regular dictionary but
+remembers the order in which items are added.
 
-In Python 3.7 and later, regular dictionaries also preserve insertion order, but `OrderedDict` provides additional methods for reordering and is useful for older versions or specific use cases.
+OrderedDict vs disctionary :
+
+A `dictionary` in Python 3.7+ maintains insertion order by default, but `OrderedDict` (from `collections`)
+explicitly guarantees this behavior across all Python versions.
+`OrderedDict` also provides additional method `move_to_end` for reordering.
+Use `OrderedDict` for backward compatibility or when order-specific operations are required.
 
 ---
 

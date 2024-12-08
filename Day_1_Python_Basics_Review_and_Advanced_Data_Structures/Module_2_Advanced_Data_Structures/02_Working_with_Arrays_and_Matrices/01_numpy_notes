@@ -6,7 +6,6 @@ Python NumPy
 - It's like a supercharged Excel for Python, but much faster and more efficient.
 
 
-
 # Why is NumPy Special?
 1. Fast Calculations: NumPy arrays are faster than Python lists for large amounts of data.
 2. Memory Efficient: Uses less memory compared to traditional Python lists.
@@ -24,7 +23,11 @@ Python NumPy
 - Array: A collection of numbers stored in a grid.
 - Operations: Perform calculations (like sum, average, multiplication) on all numbers in an array at once.
 
-
+# NumPy vs lists :
+- NumPy arrays can hold other data types (e.g., objects, strings) using `dtype=object`.
+- However, this negates NumPy's performance benefits, as element-wise operations are no longer optimized.
+- Stick to homogeneous numeric types for computational efficiency.
+- Use arrays with mixed types only when absolutely necessary, as Python lists handle such scenarios better.
 
 # Basic Example:
 

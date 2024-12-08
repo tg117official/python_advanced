@@ -1,5 +1,16 @@
 Python Notes on `namedtuple`
 
+
+# When to Use `namedtuple`
+- Use `namedtuple` when you need immutability and structured access to data fields, but don’t need the overhead or
+  mutability of a dictionary.
+- Prefer it over a tuple when field names can improve code readability and maintainability.
+
+# Dictionaries are flexible, allowing dynamic key-value pairs but consume more memory due to their hash-based storage.
+  Namedtuples are lightweight, immutable, and consume less memory. For frequent lookups, namedtuples offer better performance since attributes are accessed by index.
+  However, dictionaries provide better flexibility for dynamic data manipulation.
+
+
 # Relevance/Purpose
 - `namedtuple` is a subclass of the built-in `tuple` that provides named fields for elements in a tuple.
 - It improves code readability and maintainability by allowing access to tuple elements using attribute names rather than indices.
@@ -66,9 +77,3 @@ person_tuple = ('Alice', 25)
 print("Access in tuple:", person_tuple[0])  # Index-based
 print("Access in namedtuple:", person_namedtuple.name)  # Attribute-based
 
-
----
-
-# When to Use `namedtuple`
-- Use `namedtuple` when you need immutability and structured access to data fields, but don’t need the overhead or mutability of a dictionary.
-- Prefer it over a tuple when field names can improve code readability and maintainability.

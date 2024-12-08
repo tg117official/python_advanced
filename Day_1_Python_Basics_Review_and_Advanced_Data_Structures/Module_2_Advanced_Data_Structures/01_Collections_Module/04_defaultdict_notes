@@ -1,4 +1,17 @@
-The `defaultdict` in Python is a class in the `collections` module that acts like a regular dictionary but has a special feature: it provides a default value for a key if that key is not present in the dictionary. This avoids the common issue of getting a `KeyError` when accessing a missing key.
+The `defaultdict` in Python is a class in the `collections` module that acts like a regular dictionary
+but has a special feature:
+- it provides a default value for a key if that key is not present in the dictionary.
+- This avoids the common issue of getting a `KeyError` when accessing a missing key.
+
+# Normal Dictionary
+d = {}
+d['missing']  # Raises KeyError
+
+# defaultdict
+dd = defaultdict(int)
+print(dd['missing'])  # Returns 0 (default for int)
+
+
 
 Key Features:
 1. Automatic default values:
