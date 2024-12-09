@@ -1,0 +1,82 @@
+Class Methods vs Methods vs Static Methods
+
+#1. Regular Methods (Instance Methods):
+- Definition: Methods that operate on an instance of a class.
+- Access: Requires `self` as the first parameter to access instance attributes and other instance methods.
+- Use: Modify or retrieve instance-specific data.
+
+
+class MyClass:
+    def instance_method(self):
+        print("This is an instance method.")
+
+
+- Relevance: Used for operations tied to a specific object.
+
+
+
+#2. Class Methods:
+- Definition: Methods that operate on the class itself.
+- Access: Requires `@classmethod` decorator and `cls` as the first parameter to access class-level attributes.
+- Use: Modify or retrieve class-specific data, shared across all instances.
+
+
+class MyClass:
+    class_variable = "Shared"
+
+    @classmethod
+    def class_method(cls):
+        print(f"This is a class method. Class variable: {cls.class_variable}")
+
+
+- Relevance: Ideal for actions that affect the class as a whole.
+
+
+
+#3. Static Methods:
+- Definition: Methods that do not operate on an instance or the class.
+- Access: Requires `@staticmethod` decorator but does not take `self` or `cls`.
+- Use: Utility functions logically grouped in the class.
+
+
+class MyClass:
+    @staticmethod
+    def static_method():
+        print("This is a static method.")
+
+
+- Relevance: Used for general-purpose utility tasks unrelated to instance or class.
+
+
+
+Key Differences:
+
+| Feature            | Instance Methods           | Class Methods             | Static Methods            |
+||--|--|--|
+| Decorator       | None                          | `@classmethod`                | `@staticmethod`               |
+| First Parameter | `self`                        | `cls`                         | None                          |
+| Access          | Instance attributes/methods   | Class attributes/methods      | No instance/class attributes  |
+| Use Case        | Instance-specific behavior    | Class-wide behavior           | Utility/helper functionality  |
+
+
+
+#Example: All Three Methods in One Class
+
+class Example:
+    class_variable = "Shared"
+
+    def instance_method(self):
+        print("Instance method called!")
+
+    @classmethod
+    def class_method(cls):
+        print(f"Class method called! {cls.class_variable}")
+
+    @staticmethod
+    def static_method():
+        print("Static method called!")
+
+obj = Example()
+obj.instance_method()    # Instance method
+Example.class_method()   # Class method
+Example.static_method()  # Static method

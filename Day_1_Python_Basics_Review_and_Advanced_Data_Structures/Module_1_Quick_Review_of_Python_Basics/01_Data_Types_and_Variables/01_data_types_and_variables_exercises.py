@@ -58,7 +58,7 @@ print("Exercise 6: Average score is", average_score)
 # Exercise 7: Tuple immutability
 # Problem: Write a program to swap two numbers using a tuple.
 # Relevance: Tuples are immutable and useful for fixed collections of data.
-a, b = 5, 10
+a, b = (5, 10)
 a, b = b, a
 print("Exercise 7: After swapping, a =", a, "and b =", b)
 # Output: After swapping, a = 10 and b = 5

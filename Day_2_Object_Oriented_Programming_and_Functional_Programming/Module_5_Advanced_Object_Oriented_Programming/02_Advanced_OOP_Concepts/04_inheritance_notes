@@ -1,0 +1,100 @@
+Inheritance in Python
+
+#What is Inheritance?
+Inheritance allows a class (child class) to reuse or extend the functionality of another class (parent class). It helps avoid code duplication and supports the concept of hierarchy.
+
+
+
+Key Points:
+1. Parent Class (Base Class): The class being inherited.
+2. Child Class (Derived Class): The class that inherits from the parent.
+3. Syntax:
+
+   class Parent:
+       pass
+
+   class Child(Parent):
+       pass
+
+
+4. Purpose:
+   - Reuse existing code.
+   - Add or override functionality in child classes.
+
+
+
+Types of Inheritance:
+1. Single Inheritance: One child class inherits from one parent class.
+2. Multiple Inheritance: One child class inherits from multiple parent classes.
+3. Multilevel Inheritance: A child class inherits from a parent class, which itself is a child of another class.
+4. Hierarchical Inheritance: Multiple child classes inherit from one parent class.
+5. Hybrid Inheritance: A combination of two or more types of inheritance.
+
+
+
+Example:
+
+#1. Single Inheritance
+
+class Animal:
+    def sound(self):
+        print("This is an animal sound.")
+
+class Dog(Animal):
+    def sound(self):
+        print("Woof! Woof!")
+
+dog = Dog()
+dog.sound()  # Output: Woof! Woof!
+
+
+#2. Multilevel Inheritance
+
+class Grandparent:
+    def show_grandparent(self):
+        print("This is the grandparent.")
+
+class Parent(Grandparent):
+    def show_parent(self):
+        print("This is the parent.")
+
+class Child(Parent):
+    def show_child(self):
+        print("This is the child.")
+
+child = Child()
+child.show_grandparent()  # Output: This is the grandparent.
+child.show_parent()       # Output: This is the parent.
+child.show_child()        # Output: This is the child.
+
+
+#3. Multiple Inheritance
+
+class Mother:
+    def trait(self):
+        print("Kindness from mother.")
+
+class Father:
+    def trait(self):
+        print("Strength from father.")
+
+class Child(Mother, Father):
+    pass
+
+child = Child()
+child.trait()  # Output: Kindness from mother. (Method Resolution Order)
+
+
+
+
+Relevance:
+- Code Reusability: Avoids rewriting the same logic.
+- Hierarchy Modeling: Represents relationships (e.g., Parent-Child).
+- Extensibility: Easily extend base functionality.
+
+
+
+Use Cases:
+- Building frameworks or libraries (e.g., Django views extend base classes).
+- Modeling real-world hierarchies (e.g., Employees -> Manager -> Engineer).
+- Extending classes in larger systems.

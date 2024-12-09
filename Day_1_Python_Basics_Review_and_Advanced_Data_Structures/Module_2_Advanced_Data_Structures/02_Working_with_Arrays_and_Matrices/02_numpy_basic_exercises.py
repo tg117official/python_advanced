@@ -44,7 +44,7 @@ print("Exercise 3 - Division:", array3 / array4)
 # [[1. 0. 0.]
 #  [0. 1. 0.]
 #  [0. 0. 1.]]
-identity_matrix = np.eye(3)
+identity_matrix = 4
 print("Exercise 4:\n", identity_matrix)
 
 # - Relevance: Identity matrices are widely used in linear algebra applications like solving equations and initializing machine learning models.

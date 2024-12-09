@@ -1,0 +1,85 @@
+Abstraction in Python OOP
+
+Abstract classes can be used to define a generic shape with a blueprint for calculating area and perimeter,
+ensuring all specific shapes (like rectangles, circles) follow the same structure.
+
+#What is Abstraction?
+Abstraction is an OOP concept where you hide implementation details and expose only the
+necessary features to the user. It focuses on what an object does rather than how it does it.
+
+
+
+#How to Achieve Abstraction in Python?
+- Python uses abstract classes and interfaces to achieve abstraction.
+- Abstract classes are created using the `abc` (Abstract Base Class) module.
+- An abstract class cannot be instantiated directly.
+- Abstract methods (defined with `@abstractmethod`) must be implemented in derived classes.
+
+
+
+#Purpose of Abstraction:
+1. Simplifies complex systems by showing only relevant details.
+2. Promotes modularity and code reusability.
+3. Enforces a blueprint for child classes.
+
+
+
+#Example: Abstract Class
+
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    """Abstract base class for shapes."""
+
+    @abstractmethod
+    def area(self):
+        """Abstract method to calculate area."""
+        pass
+
+    @abstractmethod
+    def perimeter(self):
+        """Abstract method to calculate perimeter."""
+        pass
+
+
+class Rectangle(Shape):
+    """Concrete class for rectangles."""
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+    def perimeter(self):
+        return 2 * (self.width + self.height)
+
+
+# Usage
+rect = Rectangle(5, 10)
+print("Area:", rect.area())          # Output: Area: 50
+print("Perimeter:", rect.perimeter())  # Output: Perimeter: 30
+
+
+
+
+Key Points:
+- Abstract Base Class (ABC):
+  - Acts as a blueprint for child classes.
+  - Cannot be instantiated directly.
+
+- Abstract Methods:
+  - Declared in the abstract class with `@abstractmethod`.
+  - Must be implemented by child classes.
+
+- Concrete Classes:
+  - Child classes that implement the abstract methods.
+
+
+
+Relevance:
+- Used in designing frameworks and libraries.
+- Ensures consistency across derived classes.
+- Enforces coding standards for child classes.
+

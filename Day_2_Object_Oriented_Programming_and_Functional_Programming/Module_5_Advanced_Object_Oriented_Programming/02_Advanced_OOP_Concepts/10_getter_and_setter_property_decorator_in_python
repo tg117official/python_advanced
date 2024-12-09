@@ -1,0 +1,88 @@
+Getters, Setters, `@property`, and Deleters in Python
+
+#What are Getters and Setters?
+- Getters: Methods used to retrieve the value of a private attribute.
+- Setters: Methods used to update or validate the value of a private attribute.
+
+
+
+#Purpose:
+1. Encapsulation: Protect private attributes by controlling access.
+2. Validation: Ensure data integrity when modifying attributes.
+
+
+
+#The `@property` Decorator:
+- Simplifies the creation of getters, setters, and deleters.
+- Allows accessing methods as if they were attributes.
+
+
+
+Syntax:
+
+1. Getter:
+
+   @property
+   def attribute(self):
+       return self.__attribute
+
+
+2. Setter:
+
+   @attribute.setter
+   def attribute(self, value):
+       self.__attribute = value
+
+
+3. Deleter:
+
+   @attribute.deleter
+   def attribute(self):
+       del self.__attribute
+
+
+
+
+Example:
+
+
+class Person:
+    def __init__(self, name):
+        self.__name = name  # Private attribute
+
+    # Getter
+    @property
+    def name(self):
+        return self.__name
+
+    # Setter
+    @name.setter
+    def name(self, value):
+        if isinstance(value, str) and value.strip():
+            self.__name = value
+        else:
+            raise ValueError("Name must be a non-empty string")
+
+    # Deleter
+    @name.deleter
+    def name(self):
+        print("Deleting name...")
+        del self.__name
+
+# Usage
+person = Person("Alice")
+print(person.name)  # Getter: Output - Alice
+
+person.name = "Bob"  # Setter
+print(person.name)  # Output - Bob
+
+del person.name  # Deleter: Output - Deleting name...
+
+
+
+
+Key Points:
+1. Getter: Provides controlled access to a private attribute.
+2. Setter: Validates or modifies the value of a private attribute.
+3. Deleter: Deletes the private attribute.
+4. Relevance: Promotes data encapsulation and ensures data consistency.

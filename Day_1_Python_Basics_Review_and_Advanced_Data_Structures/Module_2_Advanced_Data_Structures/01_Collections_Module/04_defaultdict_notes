@@ -6,6 +6,7 @@ but has a special feature:
 # Normal Dictionary
 d = {}
 d['missing']  # Raises KeyError
+d.get('missing', 0)
 
 # defaultdict
 dd = defaultdict(int)

@@ -1,0 +1,70 @@
+Hidden Attributes and Hidden Methods in Python
+
+# What are Hidden Attributes and Methods?
+Hidden attributes and methods are private members of a class, used to restrict direct access from outside the class. They are implemented using name mangling, by prefixing the attribute or method name with `__` (double underscores).
+
+
+
+Purpose of Hiding Members:
+1. Protect sensitive data or methods.
+2. Encapsulate logic to prevent accidental modifications.
+3. Promote controlled access using getter/setter methods.
+
+
+
+Hidden (Private) Attributes:
+- Defined by prefixing an attribute name with `__`.
+- Not accessible directly outside the class; Python changes their name internally.
+
+Example:
+
+class MyClass:
+    def __init__(self):
+        self.__hidden_attribute = "This is private"
+
+    def get_hidden_attribute(self):
+        return self.__hidden_attribute  # Access via a public method
+
+obj = MyClass()
+# print(obj.__hidden_attribute)  # Error: Attribute not directly accessible
+print(obj.get_hidden_attribute())  # Output: This is private
+
+
+
+
+Hidden (Private) Methods:
+- Defined by prefixing a method name with `__`.
+- Not callable directly outside the class.
+
+Example:
+
+class MyClass:
+    def __hidden_method(self):
+        print("This is a hidden method.")
+
+    def call_hidden_method(self):
+        self.__hidden_method()  # Access via another method
+
+obj = MyClass()
+# obj.__hidden_method()  # Error: Method not directly accessible
+obj.call_hidden_method()  # Output: This is a hidden method.
+
+
+
+
+Key Points:
+1. Python uses name mangling to make private members unique:
+   - `__hidden_attribute` becomes `_ClassName__hidden_attribute`.
+   - This ensures the attribute is not accidentally overridden in subclasses.
+2. Hidden members are still accessible using their mangled names but not recommended.
+
+
+
+Best Practices:
+- Use hidden members only when needed to protect sensitive data or enforce encapsulation.
+- Provide controlled access using public methods (e.g., getters and setters).
+
+
+
+Relevance:
+Hidden attributes and methods enhance data encapsulation and promote modular design, critical for maintaining larger systems.

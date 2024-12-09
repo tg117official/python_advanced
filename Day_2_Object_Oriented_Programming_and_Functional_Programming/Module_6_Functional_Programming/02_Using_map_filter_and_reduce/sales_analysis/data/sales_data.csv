@@ -1,0 +1,7 @@
+product_id,category,price,quantity,sale_date
+101,Electronics,1000,5,2024-01-01
+102,Furniture,500,3,2024-01-02
+103,Clothing,50,20,2024-01-03
+104,Electronics,1500,-2,2024-01-04
+105,Clothing,30,15,INVALID_DATE
+106,Furniture,800,2,2024-01-05

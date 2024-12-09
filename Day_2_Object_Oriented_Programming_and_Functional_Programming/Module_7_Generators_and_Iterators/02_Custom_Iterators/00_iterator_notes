@@ -26,17 +26,18 @@ print(next(iterator))  # Output: 3
 
 
 Purpose of Iterators
-- Efficient Iteration: Process items in a collection one by one without creating additional lists or data structures.
+- Efficient Iteration: Process items in a collection one by one without creating additional lists
+  or data structures.
 - Streamline Loops: Iterators make it easy to loop through collections with minimal code.
 
 
 
 Custom Iterators
 
-#What is a Custom Iterator?
+# What is a Custom Iterator?
 A custom iterator is a class you define to create your own sequence-like behavior.
 
-#How to Create a Custom Iterator?
+# How to Create a Custom Iterator?
 1. Define a class with:
    - `__iter__()`: Initialize the iterator and return itself.
    - `__next__()`: Define what happens when the next item is requested.

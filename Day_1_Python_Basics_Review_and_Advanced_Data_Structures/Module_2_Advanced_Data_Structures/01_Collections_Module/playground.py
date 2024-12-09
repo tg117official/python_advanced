@@ -1,4 +1,12 @@
-from collections import  deque
-arr = [10,12,34,54,21,11,11,78,99]
-d = deque(arr)
-print(arr[d[0]])
+from collections import deque
+
+d = deque([10, 20, 30, 40, 50])
+
+# Rotate 2 steps to the left
+d.rotate(-2)
+
+# Reverse the deque
+d.reverse()
+
+# Print the final deque
+print(d)

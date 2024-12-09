@@ -1,4 +1,6 @@
-The `Counter` in Python is a class from the `collections` module that is used to count occurrences of items in a collection (like a list, string, or tuple). It works like a dictionary but is specifically designed for counting.
+The `Counter` in Python is a class from the `collections` module that is used to count
+occurrences of items in a collection (like a list, string, or tuple).
+It works like a dictionary but is specifically designed for counting.
 
 Key Features:
 1. Counts occurrences: It automatically counts how many times each element appears.

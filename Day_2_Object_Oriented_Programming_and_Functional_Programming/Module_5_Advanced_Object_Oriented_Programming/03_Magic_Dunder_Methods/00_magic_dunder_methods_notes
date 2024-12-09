@@ -1,0 +1,67 @@
+Magic/Dunder Methods in Python
+
+#What are Magic Methods?
+Magic (or dunder, double underscore) methods are special methods in Python surrounded by double underscores (e.g., `__init__`, `__add__`). They provide built-in functionality to make classes behave like built-in types.
+
+
+
+Purpose of Magic Methods:
+1. Add custom behavior to objects.
+2. Enable operator overloading (e.g., `+`, `==`).
+3. Allow objects to work with Python's built-in functions (e.g., `len`, `str`).
+
+
+
+Common Magic Methods:
+
+1. Object Initialization and Representation:
+   - `__init__`: Initializes the object (constructor).
+   - `__str__`: Returns a human-readable string representation.
+   - `__repr__`: Returns an unambiguous string for developers.
+
+2. Operator Overloading:
+   - `__add__`: Defines behavior for `+`.
+   - `__sub__`: Defines behavior for `-`.
+   - `__eq__`: Defines behavior for `==`.
+
+3. Container-like Behavior:
+   - `__len__`: Returns the length of an object.
+   - `__getitem__`: Enables indexing.
+   - `__setitem__`: Enables item assignment.
+
+4. Other Functionalities:
+   - `__call__`: Makes an object callable like a function.
+   - `__del__`: Defines cleanup actions when an object is deleted.
+
+
+
+Example:
+
+class CustomClass:
+    def __init__(self, value):
+        self.value = value
+
+    def __str__(self):
+        return f"CustomClass({self.value})"
+
+    def __add__(self, other):
+        return CustomClass(self.value + other.value)
+
+    def __len__(self):
+        return len(str(self.value))
+
+obj1 = CustomClass(10)
+obj2 = CustomClass(20)
+obj3 = obj1 + obj2  # Uses __add__
+
+print(obj1)        # Output: CustomClass(10) (uses __str__)
+print(len(obj1))   # Output: 2 (uses __len__)
+print(obj3)        # Output: CustomClass(30)
+
+
+
+
+Key Points:
+- "Magic" because they enable "magical" behavior like operator overloading.
+- Dunder means "double underscore."
+- Relevance: Improves class usability, integrates with Python's syntax and built-in functions.

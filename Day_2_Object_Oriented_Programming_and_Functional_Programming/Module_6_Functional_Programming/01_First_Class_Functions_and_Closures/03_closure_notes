@@ -1,7 +1,8 @@
 Closures in Python
 
 #What is a Closure?
-A closure is a function that "remembers" the variables from its surrounding scope, even after that scope has finished executing. 
+A closure is a function that "remembers" the variables from its surrounding scope, even after that scope has
+finished executing.
 
 In simple words:
 - It’s like a function with memory.
@@ -23,11 +24,49 @@ closure = outer_function(5)
 print(closure(3))  # Output: 8
 
 
-#How It Works:
+
+
+
+# How It Works:
 1. `outer_function(5)` is called, and `x` is set to `5`.
 2. `outer_function` returns `inner_function`.
 3. Even though `outer_function` has finished running, the `inner_function` still "remembers" the value of `x` from the outer scope.
 
+
+def outer_function(x):
+    def inner_function(y):
+        def innermost_function(z) :
+            return x+y+z
+        return innermost_function
+    return inner_function
+
+# closure = outer_function(5)
+print(outer_function(5)(5)(5))  # Output: 8
+
+Code Explanation
+
+1. Outer Function (`outer_function`):
+   - `outer_function(x)` takes a parameter `x` and returns the `inner_function`.
+   - Example: Calling `outer_function(5)` sets `x=5` and returns `inner_function`.
+
+2. Inner Function (`inner_function`):
+   - `inner_function(y)` takes a parameter `y` and returns the `innermost_function`.
+   - Example: After `outer_function(5)`, calling `.inner_function(5)` sets `y=5` and returns `innermost_function`.
+
+3. Innermost Function (`innermost_function`):
+   - `innermost_function(z)` takes a parameter `z` and computes the result `x + y + z`.
+   - `x` and `y` are remembered from the enclosing scopes (closure).
+   - Example: After `outer_function(5)(5)`, calling `.innermost_function(5)` sets `z=5` and calculates `5 + 5 + 5 = 15`.
+
+4. Execution Flow:
+   - `outer_function(5)` returns `inner_function` where `x=5`.
+   - `outer_function(5)(5)` calls `inner_function(5)` which sets `y=5` and returns `innermost_function`.
+   - `outer_function(5)(5)(5)` calls `innermost_function(5)` where `z=5`, computes `x + y + z = 15`.
+
+5. Final Result:
+   - The output is `15` because the sum of `x=5`, `y=5`, and `z=5` is calculated in the innermost function.
+
+Key Concept: Closures remember variables from their enclosing scopes.
 
 
 Why Use Closures?

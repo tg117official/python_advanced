@@ -1,7 +1,8 @@
 Decorators in Python
 
-#What is a Decorator?
-A decorator is a function that modifies another function or method. It adds extra functionality to the original function without changing its structure.
+# What is a Decorator?
+A decorator is a function that modifies another function or method.
+It adds extra functionality to the original function without changing its structure.
 
 Think of a decorator as a wrapper around a function that enhances or alters its behavior.
 
