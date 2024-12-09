@@ -1,0 +1,87 @@
+What is Regex?
+Regex (short for regular expression) is a way to define patterns for matching text. It is like a search tool that can help you find, replace, or validate specific patterns in strings.
+
+
+
+Purpose of Regex in Python
+1. Search for Patterns: Find specific sequences of characters in a string (e.g., "Find all email addresses in a document").
+2. Validation: Check if a string matches a format (e.g., "Is this a valid phone number?").
+3. Text Manipulation: Replace or extract parts of a string based on patterns.
+
+
+
+Basic Usage in Python
+Python uses the `re` module for regex. Here are common functions:
+- `re.search()`: Finds the first occurrence of a pattern.
+- `re.findall()`: Finds all occurrences of a pattern.
+- `re.match()`: Checks if the beginning of a string matches a pattern.
+- `re.sub()`: Replaces occurrences of a pattern with another string.
+
+
+
+Common Use Cases
+1. Data Validation:
+   - Check if an email, phone number, or postal code is valid.
+   - Example: `re.match(r"^\w+@\w+\.\w+$", "example@gmail.com")`
+
+2. Data Extraction:
+   - Extract phone numbers, dates, or URLs from text.
+   - Example: `re.findall(r"\d{10}", "Call me at 9876543210 or 1234567890.")`
+
+3. Search and Replace:
+   - Remove unwanted characters or replace patterns.
+   - Example: `re.sub(r"[^\w\s]", "", "Hello, World!")`
+
+4. Log Parsing:
+   - Extract useful information (like error codes or timestamps) from system logs.
+   - Example: `re.findall(r"\d{4}-\d{2}-\d{2}", "Error on 2024-12-09")`
+
+5. File Parsing:
+   - Find and process specific lines in a file (e.g., extract JSON data from mixed text).
+
+
+
+Industry-Level Relevance
+1. Data Cleaning: Regex is widely used in data preprocessing, especially for cleaning text data in machine learning or data analysis projects.
+2. Web Scraping: Extract specific data like prices, product names, or reviews from web pages.
+3. Log Analysis: Analyze logs in DevOps or cybersecurity to detect issues or patterns.
+4. Form Validation: Used in web development to ensure user input follows correct formats.
+5. Text Analytics: Identify keywords, hashtags, or entities in unstructured text for NLP applications.
+
+
+
+Advantages
+1. Powerful and Flexible: Handles complex text patterns easily.
+2. Saves Time: Automates tedious manual text-matching tasks.
+
+
+
+Limitations
+1. Can be Complex: Patterns can become hard to understand.
+2. Performance: Processing large datasets with complex regex can be slow.
+
+
+
+Example in Python
+
+import re
+
+# Validate an email address
+email = "example@gmail.com"
+if re.match(r"^\w+@\w+\.\w+$", email):
+    print("Valid Email")
+else:
+    print("Invalid Email")
+
+# Extract all numbers from text
+text = "There are 3 apples, 5 bananas, and 12 oranges."
+numbers = re.findall(r"\d+", text)
+print("Numbers:", numbers)
+
+# Replace non-alphanumeric characters
+clean_text = re.sub(r"[^\w\s]", "", "Hello, World!")
+print("Clean Text:", clean_text)
+
+
+
+
