@@ -4,6 +4,14 @@ Exception Handling in Python
 - Exception handling is a way to deal with unexpected events (errors) in your code without crashing your program.
 - It helps you catch errors and decide what to do next instead of letting the program stop abruptly.
 
+If a Python program crashes, resources such as file handles, database connections, or memory allocations
+may not be released properly, leading to potential issues like file corruption, data loss, or resource
+leaks.
+Exception handling can mitigate these risks by ensuring that cleanup operations are executed regardless
+of how the program exits. For instance, the try...finally block or context managers (with statement)
+can be used to guarantee resource release.
+However, for severe crashes (e.g., memory corruption or OS-level failures), exception handling within
+the program may not suffice, and external monitoring tools or process supervisors may be necessary
 
 
 Why Use Exception Handling?
