@@ -2,8 +2,21 @@ emp_dict = {
              'id' : 114,
              'name' : 'Xyz',
              'dept' : 'IT',
-             'salary': 5000
+             'salary': 5000,
+             'tech' : {
+                 'language' : 'python',
+                 'database' : {
+                     'rdbms' : 'mysql',
+                     'dw' : 'Redshift'
+                 } ,
+                 'vc' : 'github'
+             }
 }
+
+
+emp_dict['tech']['database']['dw'] = 'BigQuery'
+print(emp_dict['tech']['database']['dw'])
+
 
 # Accessing Elements
 # print(emp_dict['name'])
@@ -24,6 +37,6 @@ emp_dict = {
 # emp_dict.popitem()
 # print(emp_dict)
 
-print(tuple(emp_dict.keys()))
-print(tuple(emp_dict.values()))
-print(tuple(emp_dict.items()))
+# print(tuple(emp_dict.keys()))
+# print(tuple(emp_dict.values()))
+# print(tuple(emp_dict.items()))
