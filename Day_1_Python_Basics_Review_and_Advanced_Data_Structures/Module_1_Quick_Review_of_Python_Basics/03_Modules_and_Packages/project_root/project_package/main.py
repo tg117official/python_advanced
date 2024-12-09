@@ -14,7 +14,7 @@ from .utils import utility_function
 from .sub_package.sub_utils import helper_function
 from .sub_package.nested import nested_function
 
-if __name__ == "__main__":
+def main() :
     print(current_dir)
     print(external_module_path)
     print("Running main.py")
@@ -22,3 +22,6 @@ if __name__ == "__main__":
     helper_function()
     nested_function()
     external_function()  # Call the function from external_module
+
+if __name__ == "__main__" :
+    main()
