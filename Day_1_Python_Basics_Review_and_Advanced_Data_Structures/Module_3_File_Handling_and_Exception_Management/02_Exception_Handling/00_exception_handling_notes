@@ -1,6 +1,6 @@
 Exception Handling in Python
 
-#What is Exception Handling?
+# What is Exception Handling?
 - Exception handling is a way to deal with unexpected events (errors) in your code without crashing your program.
 - It helps you catch errors and decide what to do next instead of letting the program stop abruptly.
 

@@ -7,7 +7,6 @@ It adds extra functionality to the original function without changing its struct
 Think of a decorator as a wrapper around a function that enhances or alters its behavior.
 
 
-
 How Does a Decorator Work?
 - A decorator takes a function as input.
 - It adds some code before or after the original function.

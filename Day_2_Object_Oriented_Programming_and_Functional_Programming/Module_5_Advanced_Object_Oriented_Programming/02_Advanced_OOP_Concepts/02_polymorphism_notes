@@ -1,11 +1,11 @@
 Polymorphism in Python
 
-#What is Polymorphism?
+# What is Polymorphism?
 Polymorphism means "many forms." In Python, it allows a single interface (like a method or operation) to work with different types of data or objects.
 
 
 
-#Key Features:
+# Key Features:
 1. Method Polymorphism: Methods with the same name behave differently based on the object calling them.
 2. Duck Typing: Python focuses on the behavior of an object, not its type (e.g., if it "quacks like a duck").
 3. Operator Overloading: Operators (like `+`) behave differently based on the operands.
@@ -51,14 +51,14 @@ print("Hello " + "World")  # Output: Hello World (string concatenation)
 
 
 
-#Relevance:
+# Relevance:
 - Enables code flexibility.
 - Promotes reusability by using the same method or function for different object types.
 - Simplifies working with objects by focusing on their behavior, not their type.
 
 
 
-#Use Cases:
+# Use Cases:
 - Handling different object types in a common interface.
 - Dynamic behavior in frameworks and libraries.
 - Implementing overloaded operators for custom classes.

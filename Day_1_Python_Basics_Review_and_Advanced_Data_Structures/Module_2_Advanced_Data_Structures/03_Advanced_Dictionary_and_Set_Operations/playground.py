@@ -1,29 +1,14 @@
-emp_dict = {
-             'id' : 114,
-             'name' : 'Xyz',
-             'dept' : 'IT',
-             'salary': 5000
-}
 
-# Accessing Elements
-# print(emp_dict['name'])
-# print(emp_dict.get('dept', 'NA'))
+# Generate a list of elements where range 1 to 50, only odd numbers
 
-# Adding New Elements
-# emp_dict['email'] = 'xyz@abc.com'
-# print(emp_dict)
+odd_numers = [i for i in range(1,51) if i%2!=0]
+# [expression  Loops   Condition ]
+print(odd_numers)
 
-# Updating existing element
-# emp_dict['salary'] = 5500
-# print(emp_dict)
+odd_number_square = [i**2 for i in range(1,51) if i%2!=0]
+# [expression  Loops   Condition ]
+print(odd_numers)
 
-# Remove elements
-# emp_dict.pop('name')
-# print(emp_dict)
+odd_even = [i+i if i%2==0 else i*i for i in range(1,51)]
+print(odd_even)
 
-# emp_dict.popitem()
-# print(emp_dict)
-
-print(tuple(emp_dict.keys()))
-print(tuple(emp_dict.values()))
-print(tuple(emp_dict.items()))

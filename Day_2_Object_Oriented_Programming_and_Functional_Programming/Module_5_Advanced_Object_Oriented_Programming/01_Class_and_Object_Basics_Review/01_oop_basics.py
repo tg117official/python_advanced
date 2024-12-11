@@ -168,13 +168,27 @@ class Car :
         self.make = make
         self.model = model
         self.color = color
+        self.__hidden = "Secret"
 
+    def __hidden_method_upper(self):
+        return self.model.upper()
+    def update_hidden(self, new_val):
+        self.__hidden = new_val
+    def print_details(self):
+        print(self.make,self.__hidden_method_upper(),self.color,self.__hidden)
     def start(self):
         print(f"{self.model} Car Starts...")
     def stop(self):
         print("car Stops...")
     def apply_breaks(self):
         print("Break Applied...")
+    @classmethod
+    def update_wheels(cls,):
+        cls.number_of_wheels = 6
+
+    @staticmethod
+    def greet_driver(name):
+        print("Hello")
 
 #################### Basic Ops ###########################
 
@@ -253,3 +267,17 @@ Car.greet_driver("John")
 car1.greet_driver("Pushpa")
 car2.greet_driver("Katappa")
 
+
+############################ Hidden Attributes ################################
+
+# car1.__hidden # Won't work
+
+car1.print_details()
+car1.update_hidden("No Secret Anymore")
+car1.print_details()
+
+########################## Hidden Methods ####################################
+
+# car1.__hidden_method_upper() # Won't Work
+
+car1.print_details()

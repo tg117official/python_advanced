@@ -1,6 +1,6 @@
 Inheritance in Python
 
-#What is Inheritance?
+# What is Inheritance?
 Inheritance allows a class (child class) to reuse or extend the functionality of another class (parent class). It helps avoid code duplication and supports the concept of hierarchy.
 
 
