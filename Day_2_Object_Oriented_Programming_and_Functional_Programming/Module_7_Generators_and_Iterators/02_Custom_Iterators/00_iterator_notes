@@ -1,7 +1,8 @@
 Iterators in Python
 
 #What is an Iterator?
-- An iterator in Python is an object that lets you loop through (iterate) items in a collection, like a list, tuple, or dictionary.
+- An iterator in Python is an object that lets you loop through (iterate) items in a collection,
+  like a list, tuple, or dictionary.
 - It remembers where it left off so you can get the next item in the sequence.
 - An iterator has two key methods:
   - `__iter__()`: Returns the iterator object itself.
@@ -46,6 +47,8 @@ A custom iterator is a class you define to create your own sequence-like behavio
 
 Example: Custom Iterator
 
+
+# [1,2,3,4,5]
 class Counter:
     def __init__(self, start, end):
         self.current = start

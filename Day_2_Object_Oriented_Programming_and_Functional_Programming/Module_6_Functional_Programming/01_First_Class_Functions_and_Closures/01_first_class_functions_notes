@@ -2,6 +2,7 @@ Python First-Class Functions
 
 # What Are First-Class Functions?
 In Python, functions are treated as "first-class citizens." This means you can:
+
 1. Pass functions as arguments to other functions.
 2. Return functions from another function.
 3. Assign functions to variables.

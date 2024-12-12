@@ -1,14 +1,15 @@
+# Input dictionaries
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+dict2 = {'b': 20, 'c': 30, 'd': 40}
 
-# Generate a list of elements where range 1 to 50, only odd numbers
+# Dictionary comprehension
+merged_dict = {key: dict2.get(key, dict1.get(key)) for key in dict1.keys() | dict2.keys()}
 
-odd_numers = [i for i in range(1,51) if i%2!=0]
-# [expression  Loops   Condition ]
-print(odd_numers)
+# for key in dict1.keys() | dict2.keys() :
+#     merged_dict[key] = dict2.get(key, dict1.get(key))
+# #   merged_dict['b'] = dict2.get('b', dict1.get('b'))
+# #   merged_dict['b'] = 20
+#     print(key)
 
-odd_number_square = [i**2 for i in range(1,51) if i%2!=0]
-# [expression  Loops   Condition ]
-print(odd_numers)
-
-odd_even = [i+i if i%2==0 else i*i for i in range(1,51)]
-print(odd_even)
-
+# Display the result
+# print(merged_dict)

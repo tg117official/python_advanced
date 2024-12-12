@@ -4,43 +4,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="added oop basic">
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/pl2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_4_Working_with_Regular_Expressions/02_Regex_Patterns_and_Applications/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/05_use_cases/01_transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/05_use_cases/02_optimized_transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/03_use_cases/01_transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/03_use_cases/02_transactions_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/00_pandas_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/01_pandas_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/02_creating_dataframes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/01_pandas_introduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/02_pandas_core_components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/02_words_of_wisdom_pandas_series" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/03_basic_data_manipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/04_essential_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/05_half_century_excel_manipulations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/data/cr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/data/employee.xlsx" afterDir="false" />
+    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="added pandas project">
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/04_unit_test_patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/external_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/external_module/external.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/nested.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/sub_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/r1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/r1/standalone_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/tests/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/03_pdb_basic_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/04_pdb_itermediate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/05_instructions_for_pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/01_basic_5_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/02_intr_5_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/03_adv_5_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/04_unit_test_patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/01_accessing_website_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/01_test_accessing_website_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/02_accessing_html_bs_prettify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/03_html_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/04_html_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/05_extracting_navigable_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/06_find_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/07_find_vs_findall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/08_extract_keywords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/04_waiting_for_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/05_without_asyncIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/06_bg_Activities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/07_bg_without_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/08_asyncIo_notes_keywords" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/api/demo_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_12_Code Obfuscation/00_code_obfuscation_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_12_Code Obfuscation/01_code_obfuscation_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/00_multi_threaded_programming" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/01_multi_threading_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/02_multi_threding_intermediate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/00_exception_handling_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/00_exception_handling_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/01_exception_handing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/01_exception_handing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/banking_system_project/data/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_3_File_Handling_and_Exception_Management/02_Exception_Handling/banking_system_project/data/accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/01_list_comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/01_Class_and_Object_Basics_Review/01_oop_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/01_Class_and_Object_Basics_Review/01_oop_basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/01_Class_and_Object_Basics_Review/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/01_Class_and_Object_Basics_Review/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/02_polymorphism_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/02_polymorphism_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/04_inheritance_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/04_inheritance_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/07_abstraction_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/07_abstraction_exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/11_getter_setter_property_deleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/11_getter_setter_property_deleter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/02_Advanced_OOP_Concepts/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project/data/books.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project/data/books.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project/data/members.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project/data/members.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_first_class_functions_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_first_class_functions_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/00_decorator_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/00_decorator_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_content" beforeDir="false" afterPath="$PROJECT_DIR$/course_content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/01_generator_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/01_generator_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/00_iterator_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/00_iterator_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/02_playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/02_playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/00_unit_testing_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/00_unit_testing_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/00_pandas_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/00_pandas_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_by_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_by_region.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_trend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/01_AsyncIO_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/01_AsyncIO_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,35 +110,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.00_dictionary_vbasics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_creating_dataframes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_deque_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_numpy_advanced.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_direct_import.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.s1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.s2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transactions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sandeep/PycharmProjects/python_advanced/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/pandas_practice/data&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for playground.TestAsyncFunction.executor": "Run",
+    "Python tests.Python tests for playground.test_addition.executor": "Run",
+    "Python tests.Python tests in playground.py.executor": "Run",
+    "Python.00_dictionary_vbasics.executor": "Run",
+    "Python.01_accessing_website_html.executor": "Run",
+    "Python.01_test_accessing_website_html.executor": "Run",
+    "Python.02_accessing_html_bs_prettify.executor": "Run",
+    "Python.02_creating_dataframes.executor": "Run",
+    "Python.02_deque_exercises.executor": "Run",
+    "Python.02_playground.executor": "Run",
+    "Python.03_html_tags.executor": "Run",
+    "Python.04_html_attributes.executor": "Run",
+    "Python.04_numpy_advanced.executor": "Run",
+    "Python.04_pdb_itermediate.executor": "Run",
+    "Python.04_waiting_for_api.executor": "Run",
+    "Python.05_extracting_navigable_strings.executor": "Run",
+    "Python.05_without_asyncIO.executor": "Run",
+    "Python.06_bg_Activities.executor": "Run",
+    "Python.06_find_function.executor": "Run",
+    "Python.07_bg_without_async.executor": "Run",
+    "Python.08_extract_keywords.executor": "Run",
+    "Python.demo_api.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_direct_import.executor": "Run",
+    "Python.playground (1).executor": "Run",
+    "Python.playground (2).executor": "Run",
+    "Python.playground (3).executor": "Run",
+    "Python.playground (4).executor": "Run",
+    "Python.playground (5).executor": "Run",
+    "Python.playground.executor": "Debug",
+    "Python.s1.executor": "Run",
+    "Python.s2.executor": "Run",
+    "Python.transactions.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/python_advanced/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_8_Working_with_Advanced_Libraries\01_Data_Processing_with_Pandas\pandas_practice\data" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_10_Testing_and_Debugging_in_Python\03_Introduction_to_Pytest" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_10_Testing_and_Debugging_in_Python\02_Debugging_Techniques" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_10_Testing_and_Debugging_in_Python\01_Unit_Testing_with_unittest" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_8_Working_with_Advanced_Libraries\02_Web_Scraping_with_BeautifulSoup_and_Requests" />
       <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_3_Advanced_Libraries_Concurrency_and_Best_Practices\Module_8_Working_with_Advanced_Libraries\01_Data_Processing_with_Pandas\pandas_practice" />
-      <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_4_Working_with_Regular_Expressions\02_Regex_Patterns_and_Applications" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_2_Object_Oriented_Programming_and_Functional_Programming\Module_7_Generators_and_Iterators" />
@@ -109,8 +170,8 @@
       <recent name="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_1_Python_Basics_Review_and_Advanced_Data_Structures\Module_1_Quick_Review_of_Python_Basics\03_Modules_and_Packages\project_root" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.playground">
-    <configuration name="01_transactions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for playground.test_addition">
+    <configuration name="04_pdb_itermediate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_advanced" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,77 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/05_use_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Sandeep\PycharmProjects\python_advanced\Day_2_Object_Oriented_Programming_and_Functional_Programming\Module_6_Functional_Programming\05_use_cases\01_transactions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_creating_dataframes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/02_creating_dataframes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_advanced" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_5_Advanced_Object_Oriented_Programming/library_management_project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/04_pdb_itermediate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/playground.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,13 +215,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for playground.TestAsyncFunction" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;playground.TestAsyncFunction&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playground.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;playground.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in playground.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_advanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/playground.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for playground.test_addition" />
+        <item itemvalue="Python.04_pdb_itermediate" />
         <item itemvalue="Python.playground" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.02_creating_dataframes" />
-        <item itemvalue="Python.01_transactions" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for playground.TestAsyncFunction" />
+        <item itemvalue="Python tests.Python tests in playground.py" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733820806410</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added pandas project">
+      <option name="closed" value="true" />
+      <created>1733891609210</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733891609210</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,6 +405,7 @@
     <MESSAGE value="added dictionary basic" />
     <MESSAGE value="added day_2 exercises and notes" />
     <MESSAGE value="added oop basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added oop basic" />
+    <MESSAGE value="added pandas project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pandas project" />
   </component>
 </project>

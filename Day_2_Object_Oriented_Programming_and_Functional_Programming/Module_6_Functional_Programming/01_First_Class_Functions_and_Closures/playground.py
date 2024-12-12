@@ -1,9 +1,21 @@
-def outer_function(x):
-    def inner_function(y):
-        def innermost_function(z) :
-            return x+y+z
-        return innermost_function
-    return inner_function
+def memoize(func):
+    cache = {}
+    count = 0
+    # {10: 55, 20: 6551}
+    def wrapper(n):
+        if n not in cache:
+            cache[n] = func(n)
+#           cache[10] = 55
+        return cache[n]  #cache[10]
+    return wrapper
 
-# closure = outer_function(5)
-print(outer_function(5)(5)(5))  # Output: 8
+@memoize
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+result = fibonacci(10)  # Should return 55
+result2 = fibonacci(20)
+result3 = fibonacci(10)
+print(f"Exercise 10 Result: {result}")  # Output: 55

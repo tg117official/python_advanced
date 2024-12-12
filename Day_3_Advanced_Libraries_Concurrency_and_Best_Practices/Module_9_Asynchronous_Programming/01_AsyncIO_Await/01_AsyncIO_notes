@@ -1,9 +1,14 @@
 AsyncIO in Python
 
-#What is AsyncIO?
+( controlling the timing of operations by the use of pulses sent when the previous operation is completed
+ rather than at regular intervals.)
+
+# What is AsyncIO?
 - AsyncIO is a Python library for writing asynchronous programs.
-- It allows you to run multiple tasks concurrently without waiting for one to finish before starting another.
-- Instead of running tasks one after another (synchronously), AsyncIO lets tasks pause (when waiting for something, like a network request) and allows other tasks to run in the meantime.
+- It allows you to run multiple tasks concurrently without waiting for one to finish before starting
+  another.
+- Instead of running tasks one after another (synchronously), AsyncIO lets tasks pause
+  (when waiting for something, like a network request) and allows other tasks to run in the meantime.
 
 
 

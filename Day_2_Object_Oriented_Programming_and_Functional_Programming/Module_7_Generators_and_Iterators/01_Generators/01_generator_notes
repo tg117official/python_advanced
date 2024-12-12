@@ -1,6 +1,6 @@
 Generators in Python
 
-#What is a Generator?
+# What is a Generator?
 A generator is a special type of function in Python that:
 - Produces a sequence of values one at a time instead of creating them all at once.
 - Uses the `yield` keyword instead of `return`.

@@ -1,12 +1,14 @@
-def simple_decorator(func):
-    def wrapper():
-        print("Before the function call")
-        func()
-        print("After the function call")
+def cache(func):
+    results = {}
+    def wrapper(*args):
+        if args not in results:
+            results[args] = func(*args)
+        return results[args]
     return wrapper
 
-@simple_decorator
-def say_hello():
-    print("Hello!")
+@cache
+def square(n):
+    return n * n
 
-say_hello()
+print(f"Exercise 5 Result: {square(4)}")  # Output: 16
+print(f"Exercise 5 Result: {square(4)}")  # Output: 16 (cached)
