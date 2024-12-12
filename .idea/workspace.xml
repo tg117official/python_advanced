@@ -4,82 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="added pandas project">
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/04_unit_test_patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/external_module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/external_module/external.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/nested.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/sub_package/sub_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/project_package/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/r1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/r1/standalone_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/project_root/tests/test_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/03_pdb_basic_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/04_pdb_itermediate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/05_instructions_for_pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/02_Debugging_Techniques/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/01_basic_5_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/02_intr_5_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/03_adv_5_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/04_unit_test_patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/01_accessing_website_html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/01_test_accessing_website_html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/02_accessing_html_bs_prettify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/03_html_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/04_html_attributes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/05_extracting_navigable_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/06_find_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/07_find_vs_findall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/02_Web_Scraping_with_BeautifulSoup_and_Requests/08_extract_keywords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/04_waiting_for_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/05_without_asyncIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/06_bg_Activities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/07_bg_without_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/08_asyncIo_notes_keywords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/api/demo_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_12_Code Obfuscation/00_code_obfuscation_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_12_Code Obfuscation/01_code_obfuscation_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/00_multi_threaded_programming" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/01_multi_threading_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_4_Code Obfuscation_Multithreaded_programming/Module_13_Multithreaded Programming/02_multi_threding_intermediate.py" afterDir="false" />
+    <list default="true" id="a03c1b01-0a7d-4ecb-9a42-a4bee4b47342" name="Changes" comment="demo other">
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_11_Python_Best_Practices_and_Performance_Optimization/01_Code_Style_and_PEP_8/01_Converting_code_to_pep_8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_11_Python_Best_Practices_and_Performance_Optimization/01_Code_Style_and_PEP_8/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_advanced.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1_Python_Basics_Review_and_Advanced_Data_Structures/Module_2_Advanced_Data_Structures/03_Advanced_Dictionary_and_Set_Operations/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_first_class_functions_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/01_first_class_functions_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/01_First_Class_Functions_and_Closures/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/02_Using_map_filter_and_reduce/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/03_Lambda_Expressions_and_Anonymous_Functions/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_6_Functional_Programming/04_Decorators/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/01_generator_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/01_generator_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/01_Generators/playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/00_iterator_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/00_iterator_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/02_playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2_Object_Oriented_Programming_and_Functional_Programming/Module_7_Generators_and_Iterators/02_Custom_Iterators/02_playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/00_unit_testing_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/01_Unit_Testing_with_unittest/00_unit_testing_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/00_pandas_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/00_pandas_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.parquet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/data/data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_by_category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_by_region.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_8_Working_with_Advanced_Libraries/01_Data_Processing_with_Pandas/sales_analysis/reports/sales_trend.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/01_AsyncIO_notes" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/01_AsyncIO_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/08_asyncIo_notes_keywords" beforeDir="false" afterPath="$PROJECT_DIR$/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_9_Asynchronous_Programming/01_AsyncIO_Await/08_asyncIo_notes_keywords" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tg117official&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tg117official/python_advanced.git&quot;,
+    &quot;accountId&quot;: &quot;4f27381a-8195-44eb-8481-8aeb92268b5c&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/numpy/__config__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/numpy/doc/ufuncs.py" root0="SKIP_INSPECTION" />
@@ -149,7 +92,9 @@
     "Python.s2.executor": "Run",
     "Python.transactions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/python_advanced/Day_3_Advanced_Libraries_Concurrency_and_Best_Practices/Module_10_Testing_and_Debugging_in_Python/03_Introduction_to_Pytest",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -273,7 +218,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -390,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733891609210</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="demo other">
+      <option name="closed" value="true" />
+      <created>1733983495024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733983495024</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -406,6 +359,7 @@
     <MESSAGE value="added day_2 exercises and notes" />
     <MESSAGE value="added oop basic" />
     <MESSAGE value="added pandas project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pandas project" />
+    <MESSAGE value="demo other" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo other" />
   </component>
 </project>

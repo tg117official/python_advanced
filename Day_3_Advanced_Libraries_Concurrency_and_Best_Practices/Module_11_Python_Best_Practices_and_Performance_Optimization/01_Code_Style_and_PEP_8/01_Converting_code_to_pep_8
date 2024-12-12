@@ -1,0 +1,100 @@
+To convert your Python script to follow PEP 8 style guidelines, you can use the following steps:
+
+
+
+1. Use an Automatic Formatter
+Several tools can help you automatically format your Python script to conform to PEP 8. Here are some popular options:
+
+#a. `black`
+Black is an uncompromising code formatter for Python.
+- Install: `pip install black`
+- Format your script: `black your_script.py`
+
+#b. `autopep8`
+This tool is specifically designed to format Python code to conform to PEP 8.
+- Install: `pip install autopep8`
+- Format your script:
+  bash
+  autopep8 your_script.py --in-place --aggressive --aggressive
+
+
+
+#c. `flake8`
+While `flake8` is primarily a linter, it highlights areas that deviate from PEP 8.
+- Install: `pip install flake8`
+- Lint your script: `flake8 your_script.py`
+
+
+
+2. Manual Steps
+If you want to manually conform to PEP 8, check the following key guidelines:
+
+#Indentation
+- Use 4 spaces per indentation level.
+
+#Maximum Line Length
+- Limit all lines to a maximum of 79 characters.
+
+#Blank Lines
+- Surround top-level function and class definitions with two blank lines.
+- Use a single blank line to separate methods inside a class.
+
+#Imports
+- Place all imports at the top of the file.
+- Use separate lines for each import.
+
+  # Good
+  import os
+  import sys
+
+  # Bad
+  import os, sys
+
+
+#String Quotes
+- Use consistent quotes, either single (`'`) or double (`"`), throughout the file.
+
+#Spaces
+- Avoid extraneous whitespace:
+
+  # Good
+  a = 1
+  b = [1, 2, 3]
+
+  # Bad
+  a=1
+  b = [1,2,3]
+
+
+#Naming Conventions
+- Follow snake_case for function and variable names.
+- Use PascalCase for class names.
+- Constants should be in ALL_CAPS.
+
+#Comments
+- Write clear and descriptive comments.
+- Use `#` for single-line comments.
+
+#Function Annotations
+- If applicable, add type hints to function definitions:
+
+  def add_numbers(a: int, b: int) -> int:
+      return a + b
+
+
+
+
+3. Check PEP 8 Compliance
+After applying the formatting, validate compliance with a linter:
+- Run `flake8` or `pylint` to check for remaining issues.
+  bash
+  flake8 your_script.py
+  pylint your_script.py
+
+
+
+
+4. Integrated Development Environment (IDE)
+Most modern IDEs support PEP 8 checking and automatic formatting. For example:
+- VS Code: Install extensions like Python or Pylance, and enable PEP 8 formatting.
+- PyCharm: Automatically checks and fixes PEP 8 issues as you code.
