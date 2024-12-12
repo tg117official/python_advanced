@@ -32,7 +32,7 @@ keywords = ['1 Ton', '5 Star', 'copper', 'inverter', '2024']
 # Extract strings containing the keywords
 matches = []
 for string in soup.stripped_strings:
-    if all(keyword.lower() in string.lower() for keyword in keywords):
+    if any(keyword.lower() in string.lower() for keyword in keywords):
         matches.append(string)
 
 # Display the extracted matches

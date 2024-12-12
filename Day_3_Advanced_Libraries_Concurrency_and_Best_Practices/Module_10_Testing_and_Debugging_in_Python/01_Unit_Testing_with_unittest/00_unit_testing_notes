@@ -1,7 +1,8 @@
 Unit Testing with `unittest` in Python
 
 # What is Unit Testing?
-- Unit testing is the process of testing small, individual pieces of your code (called "units") to ensure they work correctly.
+- Unit testing is the process of testing small, individual pieces of your code (called "units")
+  to ensure they work correctly.
 - In Python, the `unittest` module is a built-in library used to perform unit tests.
 
 

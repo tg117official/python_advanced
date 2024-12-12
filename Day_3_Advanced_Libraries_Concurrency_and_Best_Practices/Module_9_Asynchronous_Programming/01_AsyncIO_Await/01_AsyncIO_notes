@@ -1,6 +1,6 @@
 AsyncIO in Python
 
-( controlling the timing of operations by the use of pulses sent when the previous operation is completed
+(controlling the timing of operations by the use of pulses sent when the previous operation is completed
  rather than at regular intervals.)
 
 # What is AsyncIO?
@@ -197,7 +197,8 @@ Advantages of AsyncIO
 Limitations of AsyncIO
 
 1. Not for CPU-Bound Tasks:
-   - AsyncIO doesn’t speed up tasks like image processing or machine learning. Use multi-threading or multi-processing for CPU-heavy work.
+   - AsyncIO doesn’t speed up tasks like image processing or machine learning.
+   - Use multi-threading or multi-processing for CPU-heavy work.
 
 2. Learning Curve:
    - Requires understanding of `async`, `await`, and event loops.

@@ -1,10 +1,8 @@
 
 
-Myvar = 40
+my_var = 40
 
+def my_function(s):
+    print(s)
 
-def MyFuntion(SS):
-    print(SS)
-
-
-MyFuntion(Myvar)
+my_function(my_var)

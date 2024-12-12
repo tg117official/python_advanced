@@ -21,9 +21,9 @@
        # ... chop each vegetable as it arrives ...
 
 
-* `async with`: This is like saying "make sure you clean up when you're done." Im******************************************************************************************************************************************************************************************************************************************************************************************************* when the cake is baked.
-******
-* `as*************************ncio.sleep()`: This tells your helper to take a break for a specific time. It's like setting a t***************************
+* `async with`: This is like saying "make sure you clean up when you're done." Imagine automatically closing the oven when the cake is baked.
+
+* `asyncio.sleep()`: This tells your helper to take a break for a specific time. It's like setting a timer.
 
 * `asyncio.gather()`: This is like saying "all helpers, start working together!" It lets you run multiple coroutines concurrently.
 

@@ -16,6 +16,7 @@ This tool is specifically designed to format Python code to conform to PEP 8.
 - Format your script:
   bash
   autopep8 your_script.py --in-place --aggressive --aggressive
+  autopep8 demo.py --in-place --aggressive --aggressive
 
 
 

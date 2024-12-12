@@ -1,0 +1,216 @@
+Comprehensive List of PyArmor Commands for Code Obfuscation and Management
+
+
+1. Obfuscate a Single Script
+
+Command:
+
+pyarmor obfuscate your_script.py
+
+
+Example:
+
+pyarmor obfuscate demo_117.py
+
+
+- This generates an obfuscated version of `demo_117.py` in the `dist/` directory along with runtime files.
+
+
+
+2. Obfuscate and Output in a Specific Directory
+
+Command:
+
+pyarmor obfuscate --output ./output_directory your_script.py
+
+
+Example:
+
+pyarmor obfuscate --output ./secured_scripts demo_117.py
+
+
+- The obfuscated script and runtime files will be saved in `./secured_scripts`.
+
+
+
+3. Obfuscate Entire Directory
+
+Command:
+
+pyarmor pack --src ./source_directory --entry main_script.py
+
+
+Example:
+
+pyarmor pack --src ./my_project --entry app.py
+
+
+- This obfuscates all scripts in `./my_project` and treats `app.py` as the entry point.
+
+
+
+4. Obfuscate a Script Without Overwriting
+
+Command:
+
+pyarmor obfuscate --exact your_script.py
+
+
+Example:
+
+pyarmor obfuscate --exact demo_117.py
+
+
+- This ensures the original script is not overwritten.
+
+
+
+5. Rename the Obfuscated Script
+
+Command:
+
+pyarmor obfuscate --exact --output . your_script.py && ren your_script.py obfuscated_script.py
+
+
+Example:
+
+pyarmor obfuscate --exact --output . demo_117.py && ren demo_117.py secured_demo_117.py
+
+
+- This renames the obfuscated script for better clarity.
+
+
+
+6. Add Licensing
+
+To ensure that the obfuscated script can run only on authorized machines, use licensing.
+
+Command:
+
+pyarmor licenses --output ./licenses license_name
+
+
+Example:
+
+pyarmor licenses --output ./licenses customer_license
+
+
+- This generates a license file `customer_license.lic` in the `./licenses` directory.
+
+
+
+7. Bind Obfuscated Code to a Specific Device
+
+Command:
+
+pyarmor licenses --bind-data "HARDWARE" license_name
+
+
+Example:
+
+pyarmor licenses --bind-data "CPU=Intel,MAC=00:11:22:33:44:55" hardware_license
+
+
+- This binds the obfuscated script to devices with matching hardware configurations.
+
+
+
+8. Prepare Runtime
+
+To prepare the runtime environment for obfuscated scripts:
+
+Command:
+
+pyarmor runtime
+
+
+- This generates the necessary runtime files (e.g., `pytransform`) for obfuscated scripts.
+
+
+
+9. Deobfuscation (Not Directly Supported)
+
+PyArmor does not support deobfuscation for security reasons. However, you can manage and re-obfuscate the original code. Always keep a backup of your original scripts.
+
+
+
+10. Check PyArmor Version
+
+Command:
+
+pyarmor --version
+
+
+Example Output:
+plaintext
+PyArmor Version 7.7.1
+
+
+
+
+11. Pack Obfuscated Code as an Executable
+
+Use PyInstaller with PyArmor to pack obfuscated code into a standalone executable.
+
+Command:
+
+pyarmor pack --clean --entry main_script.py
+
+
+Example:
+
+pyarmor pack --clean --entry app.py
+
+
+
+
+12. Generate Licensing for End Users
+
+Command:
+
+pyarmor licenses --bind-data "KEY=VALUE" --output ./license_dir license_name
+
+
+Example:
+
+pyarmor licenses --bind-data "IP=192.168.1.100" --output ./licenses user_license
+
+
+
+
+13. Verify Licensing
+
+To check if the licensing setup works:
+Command:
+
+pyarmor test licenses/license.lic
+
+
+
+
+14. Obfuscate with Custom Options
+
+Command:
+
+pyarmor obfuscate --exact --exclude "test/*,docs/*" your_script.py
+
+
+Example:
+
+pyarmor obfuscate --exact --exclude "tests/*" demo_117.py
+
+
+- This excludes certain directories (`tests/`, `docs/`) from being obfuscated.
+
+
+
+15. Display Help for Commands
+
+Command:
+
+pyarmor --help
+
+
+Specific Command Help:
+
+pyarmor obfuscate --help

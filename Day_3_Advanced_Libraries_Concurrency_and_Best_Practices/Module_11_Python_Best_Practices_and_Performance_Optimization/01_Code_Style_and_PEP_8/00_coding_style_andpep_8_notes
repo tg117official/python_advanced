@@ -1,12 +1,12 @@
 Code Style and PEP 8 in Python
 
-#What is Code Style?
+# What is Code Style?
 - Code style refers to the guidelines that help you write code in a clean, consistent, and readable way.
 - It ensures that your code looks the same as other developers’ code, making it easier to understand and maintain.
 
 
 
-#What is PEP 8?
+# What is PEP 8?
 - PEP 8 (Python Enhancement Proposal 8) is the official style guide for writing Python code.
 - It provides a set of rules and best practices for formatting your Python programs.
 
@@ -71,6 +71,7 @@ def my_function():
 #4. Naming Conventions
 - Variables and functions: Use snake_case (lowercase with underscores).
 - Classes: Use CamelCase.
+
 
 # Good
 def calculate_area():
@@ -140,7 +141,8 @@ from my_project import my_module
 name = "Alice"
 
 # Bad
-name = 'Alice'
+
+
 
 
 

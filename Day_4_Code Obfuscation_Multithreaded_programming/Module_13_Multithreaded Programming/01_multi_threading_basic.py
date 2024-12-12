@@ -29,7 +29,8 @@ thread1.join()
 thread2.join()
 
 # Exercise 2: Using Thread Locks
-# Problem: Write a program where multiple threads update a shared counter, ensuring thread safety.
+# Problem: Write a program where multiple threads update a shared counter, ensuring thread
+# safety.
 # Goal: Learn to use threading locks.
 counter = 0
 counter_lock = threading.Lock()

@@ -15,12 +15,13 @@ async def other_tasks():
     """Simulates other background tasks."""
     print("Doing other things...")
     for i in range(5):
-        print(f"Iteration {i+1}")
+        print(f"FIRST TASK : OPERATION {i+1}")
         await asyncio.sleep(1)
+
 async def other_tasks_2():
     print("A new loop...")
     for i in range(5):
-        print(f"Iteration from new loop {i+1}")
+        print(f"SECOND TASK : OPERATION {i+1}")
         await asyncio.sleep(2)
 async def main():
     """Starts event consumption and other tasks concurrently."""

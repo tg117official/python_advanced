@@ -1,21 +1,24 @@
 import unittest
-
 import requests
 from unittest.mock import patch
-import asyncio
 
-async def async_fetch_data(url):
-    await asyncio.sleep(1)  # Simulates delay
-    response = requests.get(url)
+def fetch_data(api_url):
+    response = requests.get(api_url)
     if response.status_code == 200:
         return response.json()
     else:
         raise ValueError("Failed to fetch data")
 
-class TestAsyncFunction(unittest.IsolatedAsyncioTestCase):
+
+class TestAPI(unittest.TestCase):
     @patch("requests.get")
-    async def test_async_fetch_data(self, mock_get):
+    def test_fetch_data_success(self, mock_get):
         mock_get.return_value.status_code = 200
-        mock_get.return_value.json.return_value = {"data": "value"}
-        result = await async_fetch_data("https://example.com")
-        self.assertEqual(result, {"data": "value"})
+        mock_get.return_value.json.return_value = {"key": "value"}
+        self.assertEqual(fetch_data("https://example.com"), {"key": "value"})
+
+    @patch("requests.get")
+    def test_fetch_data_failure(self, mock_get):
+        mock_get.return_value.status_code = 404
+        with self.assertRaises(ValueError):
+            fetch_data("https://example.com")

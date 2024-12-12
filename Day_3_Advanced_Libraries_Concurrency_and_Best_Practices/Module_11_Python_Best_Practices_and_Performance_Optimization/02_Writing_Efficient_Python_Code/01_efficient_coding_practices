@@ -6,7 +6,8 @@ Efficient memory management is crucial for optimizing Python applications, espec
 
 1. Use Built-in Data Structures Wisely
 #a. Prefer Built-in Types
-- Use Python’s built-in types (e.g., `list`, `dict`, `set`, `tuple`) instead of creating custom objects when possible.
+- Use Python’s built-in types (e.g., `list`, `dict`, `set`, `tuple`) instead of creating custom objects
+  when possible.
 
 #b. Use `collections` Module
 - Leverage memory-efficient structures like `deque`, `Counter`, `defaultdict`, and `namedtuple`.
